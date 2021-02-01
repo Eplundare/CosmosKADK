@@ -229,7 +229,8 @@ public class YoutubeSettings : MonoBehaviour
     /*PRIVATE INFO DO NOT CHANGE THESE URLS OR VALUES, ONLY IF YOU WANT HOST YOUR OWN SERVER| TURORIALS IN THE PROJECT FILES*/
     protected const string serverURI = "https://lightshaftstream.herokuapp.com/api/info?url=";
     protected const string formatURI = "&format=best&flatten=true";
-    protected const string VIDEOURIFORWEBGLPLAYER = "https://youtubewebgl.herokuapp.com/download.php?mime=video/mp4&title=generatedvideo&token=";
+    protected const string VIDEOURIFORWEBGLPLAYER = "https://eplundare.github.io/webglplayersystem/download.php?mime=video/mp4&title=generatedvideo&token=";
+    //protected const string VIDEOURIFORWEBGLPLAYER = "https://youtubewebgl.herokuapp.com/download.php?mime=video/mp4&title=generatedvideo&token="; //OLD LINE
     /*END OF PRIVATE INFO*/
 
     #endregion

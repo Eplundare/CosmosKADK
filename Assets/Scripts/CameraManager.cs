@@ -20,15 +20,15 @@ public class CameraManager : MonoBehaviour
     {
         cam00.SetActive(true);
         cam01.SetActive(false);
-        //cam02.SetActive(false);
-        //cam03.SetActive(false);
-        //cam04.SetActive(false);
-        //cam05.SetActive(false);
-        //cam06.SetActive(false);
-        //cam07.SetActive(false);
-        //cam08.SetActive(false);
-        //cam09.SetActive(false);
-        //cam10.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
 
     }
 
@@ -36,15 +36,150 @@ public class CameraManager : MonoBehaviour
     {
         cam00.SetActive(false);
         cam01.SetActive(true);
-        //cam02.SetActive(false);
-        //cam03.SetActive(false);
-        //cam04.SetActive(false);
-        //cam05.SetActive(false);
-        //cam06.SetActive(false);
-        //cam07.SetActive(false);
-        //cam08.SetActive(false);
-        //cam09.SetActive(false);
-        //cam10.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn02()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(true);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn03()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(true);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn04()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(true);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn05()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(true);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn06()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(true);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn07()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(true);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn08()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(true);
+        cam09.SetActive(false);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn09()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(true);
+        cam10.SetActive(false);
+    }
+
+    public void CamOn10()
+    {
+        cam00.SetActive(false);
+        cam01.SetActive(false);
+        cam02.SetActive(false);
+        cam03.SetActive(false);
+        cam04.SetActive(false);
+        cam05.SetActive(false);
+        cam06.SetActive(false);
+        cam07.SetActive(false);
+        cam08.SetActive(false);
+        cam09.SetActive(false);
+        cam10.SetActive(true);
     }
 
 }
