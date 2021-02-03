@@ -227,11 +227,15 @@ public class YoutubeSettings : MonoBehaviour
     protected static string jsUrl;
 
     /*PRIVATE INFO DO NOT CHANGE THESE URLS OR VALUES, ONLY IF YOU WANT HOST YOUR OWN SERVER| TURORIALS IN THE PROJECT FILES*/
-    //protected const string serverURI = "https://lightshaftstream.herokuapp.com/api/info?url=";
-    protected const string serverURI = "https://github.com/Eplundare/Eplundare.github.io/tree/main/api/info?url=";
+    //NOTHING IN THIS LINE.
+    //protected const string serverURI = "https://eplundare.github.io/api/info?url=";
+    protected const string serverURI = "https://universek.herokuapp.com/api/info?url=";
+    //protected const string serverURI = "https://universek2.herokuapp.com/api/info?url=";
     protected const string formatURI = "&format=best&flatten=true";
-    protected const string VIDEOURIFORWEBGLPLAYER = "https://github.com/Eplundare/Eplundare.github.io/tree/main/webglplayersystem/download.php?mime=video/mp4&title=generatedvideo&token=";
     //protected const string VIDEOURIFORWEBGLPLAYER = "https://youtubewebgl.herokuapp.com/download.php?mime=video/mp4&title=generatedvideo&token="; //OLD LINE
+    //protected const string VIDEOURIFORWEBGLPLAYER = "https://eplundare.github.io/webglplayersystem/download.php?mime=video/mp4&title=generatedvideo&token=";
+    //protected const string VIDEOURIFORWEBGLPLAYER = "https://github.com/Eplundare/Eplundare.github.io/webglplayersystem/download.php?mime=video/mp4&title=generatedvideo&token=";
+    protected const string VIDEOURIFORWEBGLPLAYER = "https://universek2.herokuapp.com/download.php?mime=video/mp4&title=generatedvideo&token=";
     /*END OF PRIVATE INFO*/
 
     #endregion

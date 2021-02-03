@@ -1,0 +1,6 @@
+var instance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {
+	onProgress: UnityProgress,
+	Module : {
+	  cacheControl: {"default": "immutable"},
+	}
+}
