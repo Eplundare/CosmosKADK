@@ -8,4 +8,5 @@ public class Student : MonoBehaviour
     public string url;
     public YoutubePlayer ytPlayer;
     public GameObject collObj;
+    public GameObject studentUi;
 }

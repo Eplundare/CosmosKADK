@@ -19,11 +19,15 @@ public class YoutubeTrigger : MonoBehaviour
         Debug.Log("Camera trigger has entered");
 
         StartYTP();
+        studentObj.studentUi.SetActive(true);
     }
 
     public void OnTriggerExit(Collider other)
     {
+        Debug.Log("Camera trigger has exited");
+
         StopYTP();
+        studentObj.studentUi.SetActive(false);
 
     }
 
