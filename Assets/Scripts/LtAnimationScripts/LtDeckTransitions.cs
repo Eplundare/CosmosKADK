@@ -85,7 +85,7 @@ public class LtDeckTransitions : MonoBehaviour
         LeanTween.rotateLocal(deck, rot0, 0f);
         LeanTween.moveLocal(deck, pos0, 0f);
 
-        LeanTween.moveLocal(deck, pos1, timeAnim1).setDelay(delayTid).setEase(animCurve).setLoopPingPong(loopAnim1);
+        LeanTween.moveLocal(deck, pos1, timeAnim1).setDelay(delayTid).setEase(animCurve).setLoopPingPong(/*loopAnim1*/);
 
     }
 

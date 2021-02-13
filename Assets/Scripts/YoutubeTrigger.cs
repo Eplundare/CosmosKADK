@@ -6,13 +6,13 @@ public class YoutubeTrigger : MonoBehaviour
 {
     public Student studentObj;
 
-    public void Update()
-    {
-        if (Input.GetKeyDown("space"))
-        {
-            StartYTP();
-        }
-    }
+    //public void Update()
+    //{
+    //    if (Input.GetKeyDown("space"))
+    //    {
+    //        StartYTP();
+    //    }
+    //}
 
     public void OnTriggerEnter(Collider other)
     {
