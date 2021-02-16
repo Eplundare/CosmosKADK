@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class VideoPlayerManager : MonoBehaviour
 {
-    public Student studentObj;
+    public StudentInfo studInfo;
+    public StudentMedia studMedia;
+
+    private bool nextVideoIsArtifact;
+
+    public void Start()
+    {
+        nextVideoIsArtifact = true;
+    }
 
     public void Update()
     {
@@ -15,40 +23,91 @@ public class VideoPlayerManager : MonoBehaviour
 
         if (Input.GetKeyDown("s")) // THIS IS FOR TESTING ONLY. COMMENT THIS CONDITION WITH Ctrl+K+C AFTER TESTS.
         {
-            StopPresentation();
+            StopPresOrArtifact();
         }
+    }
+
+    // METHODS FOR sCARD PLAYBACK
+
+    public void StartCardVideo()
+    {
+        studInfo.cardYtPlayer.Play(studInfo.cardYoutubeUrl);
+    }
+
+    public void StopCardVideo()
+    {
+        studInfo.cardYtPlayer.Stop();
+    }
+
+    public void SloopCardVideo()
+    {
+
+        StartCardVideo();
     }
 
     // METHODS FOR PRESENTATION PLAYBACK
     public void StartPresentation()
     {
-        studentObj.presYtPlayer.Play(studentObj.presentationUrl);
+        if (studMedia.isVertical == false)
+        {
+            studMedia.horizontalMediaYtPlayer.Play(studMedia.presentationUrl);
+        }
+
+        else if (studMedia.isVertical == true)
+        {
+            studMedia.verticalMediaYtPlayer.Play(studMedia.presentationUrl);
+            //studMedia.testYtSimp.autoPlay(studMedia.presentationUrl);
+        }
     }
 
-    public void StopPresentation()
+    public void StopPresOrArtifact()
     {
-        studentObj.presYtPlayer.Stop();
+        if (studMedia.isVertical == false)
+        {
+            studMedia.horizontalMediaYtPlayer.Stop();
+        }
+
+        else if (studMedia.isVertical == true)
+        {
+            studMedia.verticalMediaYtPlayer.Stop();
+        }
+        
     }
 
-    public void SloopPresentation()
+    public void SloopPresOrArtifact()
     {
-        StartPresentation();
+        if (nextVideoIsArtifact == true)
+        {
+            StartArtifact();
+            nextVideoIsArtifact = false;
+        }
+        else if (nextVideoIsArtifact == false)
+        {
+            StartPresentation();
+            nextVideoIsArtifact = true;
+        }
     }
 
     //METHODS FOR ARTIFACT PLAYBACK
     public void StartArtifact()
     {
-        studentObj.artifYtPlayer.Play(studentObj.artifactUrl);
+        if (studMedia.isVertical == false)
+        {
+            studMedia.horizontalMediaYtPlayer.Play(studMedia.artifactUrl);
+        }
+
+        else if (studMedia.isVertical == true)
+        {
+            studMedia.verticalMediaYtPlayer.Play(studMedia.artifactUrl);
+        }
+        
     }
 
-    public void StopArtifact()
-    {
-        studentObj.artifYtPlayer.Stop();
-    }
+    //public void StopArtifact()
+    //{
+    //    studentMedia.mediaYtPlayer.Stop();
+    //}
 
-    public void SloopArtifact()
-    {
-        StartArtifact();
-    }
+
 
 }

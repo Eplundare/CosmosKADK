@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class YoutubeTrigger : MonoBehaviour
 {
-    public Student studentObj;
+    //public Student studentObj;
 
     //public void Update()
     //{

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LtContentSwipe : MonoBehaviour
 {
+    public string VideoOrDescription;
+
     [Space]
     [Header("Content PARENT and Position pivots here:")]
     // Game objects of Primary and Secondary graphics, as well as their Pos (position) pivots.
