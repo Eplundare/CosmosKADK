@@ -14,18 +14,18 @@ public class VideoPlayerManager : MonoBehaviour
         nextVideoIsArtifact = true;
     }
 
-    public void Update()
-    {
-        if (Input.GetKeyDown("space")) // THIS IS FOR TESTING ONLY. COMMENT THIS CONDITION WITH Ctrl+K+C AFTER TESTS.
-        {
-            StartPresentation();
-        }
+    //public void Update()
+    //{
+    //    if (Input.GetKeyDown("space")) // THIS IS FOR TESTING ONLY. COMMENT THIS CONDITION WITH Ctrl+K+C AFTER TESTS.
+    //    {
+    //        StartPresentation();
+    //    }
 
-        if (Input.GetKeyDown("s")) // THIS IS FOR TESTING ONLY. COMMENT THIS CONDITION WITH Ctrl+K+C AFTER TESTS.
-        {
-            StopPresOrArtifact();
-        }
-    }
+    //    if (Input.GetKeyDown("s")) // THIS IS FOR TESTING ONLY. COMMENT THIS CONDITION WITH Ctrl+K+C AFTER TESTS.
+    //    {
+    //        StopPresOrArtifact();
+    //    }
+    //}
 
     // METHODS FOR sCARD PLAYBACK
 

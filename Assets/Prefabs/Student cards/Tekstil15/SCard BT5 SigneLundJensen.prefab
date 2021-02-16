@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: nextVideoIsArtifact
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5939774254122856888, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7073744967392671000, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -161,6 +165,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3931901875439812950, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
+      propertyPath: autoPlayOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
+      propertyPath: showThumbnailBeforeVideoLoad
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}

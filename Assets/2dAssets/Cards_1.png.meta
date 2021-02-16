@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: 64c02de705673cd469d784faf03f5407
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5709910651280757429
+    second: CardSpritesheet_1x15_MRM_0
+  - first:
+      213: 6020606407691524684
+    second: CardSpritesheet_1x15_MRM_1
+  - first:
+      213: 8540466682373868659
+    second: CardSpritesheet_1x15_MRM_2
+  - first:
+      213: 1032095786816929300
+    second: CardSpritesheet_1x15_MRM_3
+  - first:
+      213: -8736541472765921045
+    second: CardSpritesheet_1x15_MRM_4
+  - first:
+      213: 3356750940236497796
+    second: CardSpritesheet_1x15_MRM_5
+  - first:
+      213: 4502341528924252072
+    second: CardSpritesheet_1x15_MRM_6
+  - first:
+      213: -166980495591060923
+    second: CardSpritesheet_1x15_MRM_7
+  - first:
+      213: 2255842372327516452
+    second: CardSpritesheet_1x15_MRM_8
+  - first:
+      213: 5108143753799191355
+    second: CardSpritesheet_1x15_MRM_9
+  - first:
+      213: -63194941515913064
+    second: CardSpritesheet_1x15_MRM_10
+  - first:
+      213: 2752716263001341031
+    second: CardSpritesheet_1x15_MRM_11
+  - first:
+      213: 5260329972404877047
+    second: CardSpritesheet_1x15_MRM_12
+  - first:
+      213: 3366015986461596978
+    second: CardSpritesheet_1x15_MRM_13
+  - first:
+      213: 4665956794819909497
+    second: CardSpritesheet_1x15_MRM_14
+  - first:
+      213: 4684211105428038042
+    second: CardSheet_1_MRM1 ChristophJamesAhlefeldt-Laurvig
+  - first:
+      213: 6204682106992838556
+    second: CardSheet_1_1
+  - first:
+      213: -1693088200677683784
+    second: CardSheet_1_2
+  - first:
+      213: -5974526928526078577
+    second: CardSheet_1_3
+  - first:
+      213: -6283924324390699439
+    second: CardSheet_1_4
+  - first:
+      213: -1550126519550736930
+    second: CardSheet_1_5
+  - first:
+      213: -4944664097016672630
+    second: CardSheet_1_6
+  - first:
+      213: 2252796397700508913
+    second: CardSheet_1_7
+  - first:
+      213: 9209169857804412261
+    second: CardSheet_1_8
+  - first:
+      213: 1599955423965820328
+    second: CardSheet_1_9
+  - first:
+      213: -5858740093349628020
+    second: CardSheet_1_10
+  - first:
+      213: -3015451391247685593
+    second: CardSheet_1_11
+  - first:
+      213: -1647100643232906141
+    second: CardSheet_1_12
+  - first:
+      213: 3843945095998447297
+    second: CardSheet_1_13
+  - first:
+      213: -4548028244660499266
+    second: CardSheet_1_14
+  - first:
+      213: 1152914606370955855
+    second: SCard MRM1 ChristophJamesAhlefeldt-Laurvig
+  - first:
+      213: -4549771792551425855
+    second: SCard MRM2 EmmaBonven
+  - first:
+      213: 6130117848181257224
+    second: Cards_1_2SCard MRM3 MariaHovdrengBull
+  - first:
+      213: 7302865116389060693
+    second: SCard MRM4 MajaVenedaJuulChristensen
+  - first:
+      213: -4150763110129747058
+    second: SCard MRM5 FridaOlineClemmensen
+  - first:
+      213: -7192487265426405590
+    second: SCard MRM6 FerdinandFrederikBreyenDahl
+  - first:
+      213: -7606021786114690326
+    second: SCard MRM7 SunnevaElvarsdottir
+  - first:
+      213: 709705983421998390
+    second: SCard MRM8 AgnesGuggenheimer
+  - first:
+      213: 7025806649806040163
+    second: SCard MRM9 FilipHede
+  - first:
+      213: -5465832570141717170
+    second: SCard MRM10 JosefineIsabelleThygesenHell
+  - first:
+      213: -2415087395276336415
+    second: SCard MRM11 ViolaSinneMothJacobsen
+  - first:
+      213: 6905402398385208191
+    second: SCard MRM12 FrederikRosgaardPalludanJensen
+  - first:
+      213: -7039954503045348372
+    second: SCard MRM13 JasperOleFriedrichKrebs
+  - first:
+      213: -3898162908140630285
+    second: "SCard MRM14 EmilieDyrl\xF8vMadsen"
+  - first:
+      213: 2043856070113852863
+    second: "SCard MRM15 EvaRosaConeM\xF8ller"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SCard MRM1 ChristophJamesAhlefeldt-Laurvig
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42a911e9b9ffff00800000000000000
+      internalID: 1152914606370955855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM2 EmmaBonven
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c841ef09a6fbd0c0800000000000000
+      internalID: -4549771792551425855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_1_2SCard MRM3 MariaHovdrengBull
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804302444bd821550800000000000000
+      internalID: 6130117848181257224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM4 MajaVenedaJuulChristensen
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55036f0912df85560800000000000000
+      internalID: 7302865116389060693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM5 FridaOlineClemmensen
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 686
+        width: 178
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bbbe961f68566c0800000000000000
+      internalID: -4150763110129747058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM6 FerdinandFrederikBreyenDahl
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 347
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270db480f62f2c90800000000000000
+      internalID: -7192487265426405590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM7 SunnevaElvarsdottir
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 347
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae270c4eb7bf17690800000000000000
+      internalID: -7606021786114690326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM8 AgnesGuggenheimer
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 347
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63566dce4d169d900800000000000000
+      internalID: 709705983421998390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM9 FilipHede
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 347
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c24467ceda08160800000000000000
+      internalID: 7025806649806040163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM10 JosefineIsabelleThygesenHell
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 347
+        width: 178
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d41f69c367524b0800000000000000
+      internalID: -5465832570141717170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM11 ViolaSinneMothJacobsen
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d7074fc2eb7ed0800000000000000
+      internalID: -2415087395276336415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM12 FrederikRosgaardPalludanJensen
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b71ea15eae4df50800000000000000
+      internalID: 6905402398385208191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard MRM13 JasperOleFriedrichKrebs
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce30213cdae0d4e90800000000000000
+      internalID: -7039954503045348372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SCard MRM14 EmilieDyrl\xF8vMadsen"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe8ca70d71f6e9c0800000000000000
+      internalID: -3898162908140630285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SCard MRM15 EvaRosaConeM\xF8ller"
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 9
+        width: 178
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd7927544c3d5c10800000000000000
+      internalID: 2043856070113852863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6d200ec1fa315ea43af51e6cf3a33b4c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: 37db2ae7a0b83244e91882f7f51299a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5709910651280757429
+    second: CardSpritesheet_1x15_MRM_0
+  - first:
+      213: 6020606407691524684
+    second: CardSpritesheet_1x15_MRM_1
+  - first:
+      213: 8540466682373868659
+    second: CardSpritesheet_1x15_MRM_2
+  - first:
+      213: 1032095786816929300
+    second: CardSpritesheet_1x15_MRM_3
+  - first:
+      213: -8736541472765921045
+    second: CardSpritesheet_1x15_MRM_4
+  - first:
+      213: 3356750940236497796
+    second: CardSpritesheet_1x15_MRM_5
+  - first:
+      213: 4502341528924252072
+    second: CardSpritesheet_1x15_MRM_6
+  - first:
+      213: -166980495591060923
+    second: CardSpritesheet_1x15_MRM_7
+  - first:
+      213: 2255842372327516452
+    second: CardSpritesheet_1x15_MRM_8
+  - first:
+      213: 5108143753799191355
+    second: CardSpritesheet_1x15_MRM_9
+  - first:
+      213: -63194941515913064
+    second: CardSpritesheet_1x15_MRM_10
+  - first:
+      213: 2752716263001341031
+    second: CardSpritesheet_1x15_MRM_11
+  - first:
+      213: 5260329972404877047
+    second: CardSpritesheet_1x15_MRM_12
+  - first:
+      213: 3366015986461596978
+    second: CardSpritesheet_1x15_MRM_13
+  - first:
+      213: 4665956794819909497
+    second: CardSpritesheet_1x15_MRM_14
+  - first:
+      213: 4684211105428038042
+    second: SCard SI8 SimonWintherMogensen
+  - first:
+      213: 6204682106992838556
+    second: SCard SI9 IbouVillumsenNdiaye
+  - first:
+      213: -1693088200677683784
+    second: SCard SI10 NatashaBeckOptLand
+  - first:
+      213: -5974526928526078577
+    second: "SCard SI11 IsakKristianS\xF8lvh\xF8jRavn"
+  - first:
+      213: -6283924324390699439
+    second: SCard SI12 FelixJonVallentinSchumann
+  - first:
+      213: -1550126519550736930
+    second: SCard VK1 AlberteMilleAlmsig
+  - first:
+      213: -4944664097016672630
+    second: "SCard VK2 CleaTr\xF8stBigum"
+  - first:
+      213: 2252796397700508913
+    second: SCard VK3 NataschaBlaase-Nielsen
+  - first:
+      213: 9209169857804412261
+    second: SCard VK4 MarthaRoseBonde
+  - first:
+      213: 1599955423965820328
+    second: SCard VK5 AyselSandrineBuhl
+  - first:
+      213: -5858740093349628020
+    second: SCard VK6 CamilleCiljaAaenCaspersen
+  - first:
+      213: -3015451391247685593
+    second: SCard VK7 NourHavemose
+  - first:
+      213: -1647100643232906141
+    second: SCard VK8 EleanorClarisSmallHeyn-Johnsen
+  - first:
+      213: 3843945095998447297
+    second: SCard VK9 HannaHelenaHolgaard
+  - first:
+      213: -4548028244660499266
+    second: SCard VK10 EstherJemth
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SCard SI8 SimonWintherMogensen
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a916affae29a10140800000000000000
+      internalID: 4684211105428038042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard SI9 IbouVillumsenNdiaye
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97c783a0857b1650800000000000000
+      internalID: 6204682106992838556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard SI10 NatashaBeckOptLand
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd83397041f088e0800000000000000
+      internalID: -1693088200677683784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SCard SI11 IsakKristianS\xF8lvh\xF8jRavn"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 686
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d8234b967361da0800000000000000
+      internalID: -5974526928526078577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard SI12 FelixJonVallentinSchumann
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 685
+        width: 178
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e7141ee140bc8a0800000000000000
+      internalID: -6283924324390699439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK1 AlberteMilleAlmsig
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 347
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed50445b428dc7ae0800000000000000
+      internalID: -1550126519550736930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SCard VK2 CleaTr\xF8stBigum"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 348
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e81b3a336016bb0800000000000000
+      internalID: -4944664097016672630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK3 NataschaBlaase-Nielsen
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 347
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fce73c436a834f10800000000000000
+      internalID: 2252796397700508913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK4 MarthaRoseBonde
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 347
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565aaa2813b8dcf70800000000000000
+      internalID: 9209169857804412261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK5 AyselSandrineBuhl
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 347
+        width: 178
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a531fd2bfe243610800000000000000
+      internalID: 1599955423965820328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK6 CamilleCiljaAaenCaspersen
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c877e801de291bea0800000000000000
+      internalID: -5858740093349628020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK7 NourHavemose
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728693bafe6f626d0800000000000000
+      internalID: -3015451391247685593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK8 EleanorClarisSmallHeyn-Johnsen
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36409c211b25429e0800000000000000
+      internalID: -1647100643232906141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK9 HannaHelenaHolgaard
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce971fd2bf685530800000000000000
+      internalID: 3843945095998447297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCard VK10 EstherJemth
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 9
+        width: 178
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc4190786822e0c0800000000000000
+      internalID: -4548028244660499266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6d200ec1fa315ea43af51e6cf3a33b4c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
