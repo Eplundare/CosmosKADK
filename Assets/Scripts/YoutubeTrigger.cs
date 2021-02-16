@@ -14,32 +14,32 @@ public class YoutubeTrigger : MonoBehaviour
     //    }
     //}
 
-    public void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Camera trigger has entered");
+    //public void OnTriggerEnter(Collider other)
+    //{
+    //    Debug.Log("Camera trigger has entered");
 
-        StartYTP();
-        studentObj.studentUi.SetActive(true);
-    }
+    //    StartYTP();
+    //    studentObj.studentUi.SetActive(true);
+    //}
 
-    public void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Camera trigger has exited");
+    //public void OnTriggerExit(Collider other)
+    //{
+    //    Debug.Log("Camera trigger has exited");
 
-        StopYTP();
-        studentObj.studentUi.SetActive(false);
+    //    StopYTP();
+    //    studentObj.studentUi.SetActive(false);
 
-    }
+    //}
 
-    public void StartYTP()
-    {
-        studentObj.ytPlayer.Play(studentObj.url);
-    }
+    //public void StartYTP()
+    //{
+    //    studentObj.ytPlayer.Play(studentObj.url);
+    //}
 
-    public void StopYTP()
-    {
-        studentObj.ytPlayer.Stop();
-    }
+    //public void StopYTP()
+    //{
+    //    studentObj.ytPlayer.Stop();
+    //}
 
 
 }

@@ -5,8 +5,10 @@ using UnityEngine;
 public class Student : MonoBehaviour
 {
     public string studentName;
-    public string url;
-    public YoutubePlayer ytPlayer;
-    public GameObject collObj;
-    public GameObject studentUi;
+    public GameObject illustration;
+    public string presentationUrl;
+    public YoutubePlayer presYtPlayer;
+    public string artifactUrl;
+    public YoutubePlayer artifYtPlayer;
+    public GameObject description;
 }

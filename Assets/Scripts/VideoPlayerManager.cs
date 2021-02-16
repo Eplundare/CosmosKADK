@@ -10,28 +10,45 @@ public class VideoPlayerManager : MonoBehaviour
     {
         if (Input.GetKeyDown("space")) // THIS IS FOR TESTING ONLY. COMMENT THIS CONDITION WITH Ctrl+K+C AFTER TESTS.
         {
-            StartYTP();
+            StartPresentation();
         }
 
         if (Input.GetKeyDown("s")) // THIS IS FOR TESTING ONLY. COMMENT THIS CONDITION WITH Ctrl+K+C AFTER TESTS.
         {
-            StopYTP();
+            StopPresentation();
         }
     }
 
-    public void StartYTP()
+    // METHODS FOR PRESENTATION PLAYBACK
+    public void StartPresentation()
     {
-        studentObj.ytPlayer.Play(studentObj.url);
+        studentObj.presYtPlayer.Play(studentObj.presentationUrl);
     }
 
-    public void StopYTP()
+    public void StopPresentation()
     {
-        studentObj.ytPlayer.Stop();
+        studentObj.presYtPlayer.Stop();
     }
 
-    public void SloopYTP()
+    public void SloopPresentation()
     {
-        //StopYTP(); // THIS IS NOT NEEDED APPARENTLY.
-        StartYTP();
+        StartPresentation();
     }
+
+    //METHODS FOR ARTIFACT PLAYBACK
+    public void StartArtifact()
+    {
+        studentObj.artifYtPlayer.Play(studentObj.artifactUrl);
+    }
+
+    public void StopArtifact()
+    {
+        studentObj.artifYtPlayer.Stop();
+    }
+
+    public void SloopArtifact()
+    {
+        StartArtifact();
+    }
+
 }

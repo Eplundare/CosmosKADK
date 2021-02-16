@@ -21,23 +21,23 @@ public class LtDeckTransitions : MonoBehaviour
     public Transform rumTrans1;
 
     [Space]
-    [Header("Vectors")]
+    [Header("Hidden Vectors")]
     // This vectors are assigned on Start.
-    public Vector3 pos0;
-    public Vector3 pos1;
-    public Vector3 pos2;
-    public Vector3 viskomPos1;
-    public Vector3 fashionPos1;
-    public Vector3 gamePos1;
-    public Vector3 rumPos1;
+    private Vector3 pos0;
+    private Vector3 pos1;
+    private Vector3 pos2;
+    private Vector3 viskomPos1;
+    private Vector3 fashionPos1;
+    private Vector3 gamePos1;
+    private Vector3 rumPos1;
 
-    public Vector3 rot0;
-    public Vector3 rot1;
-    public Vector3 rot2;
-    public Vector3 viskomRot1;
-    public Vector3 fashionRot1;
-    public Vector3 gameRot1;
-    public Vector3 rumRot1;
+    private Vector3 rot0;
+    private Vector3 rot1;
+    private Vector3 rot2;
+    private Vector3 viskomRot1;
+    private Vector3 fashionRot1;
+    private Vector3 gameRot1;
+    private Vector3 rumRot1;
 
     [Space]
     [Header("Animation times")]
