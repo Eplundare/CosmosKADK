@@ -7,9 +7,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5615585915417188591, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543720983900822299, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841287374849296966, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
+      propertyPath: m_text
+      value: Visuel Kommunikation
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841287375099959039, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
+      propertyPath: m_text
+      value: Temperance
+      objectReference: {fileID: 0}
     - target: {fileID: 7841287375496742000, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
       propertyPath: m_Name
-      value: SCard (norm) (0)
+      value: SCard VK1 AlberteMilleAlmsig
       objectReference: {fileID: 0}
     - target: {fileID: 7841287375496742007, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
       propertyPath: m_RootOrder
@@ -55,5 +71,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7841287376050225796, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
+      propertyPath: m_text
+      value: Alberte Mille Almsig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841287376447675738, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1550126519550736930, guid: 37db2ae7a0b83244e91882f7f51299a3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63468fcb2f6f7d645b42a4a1901dde73, type: 3}

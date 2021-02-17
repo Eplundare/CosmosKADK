@@ -7,6 +7,70 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1557513302795934151, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630377143571651994, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948879683492209577, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4597577366530039901, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889519992711987912, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5097687917983871249, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5246170173070919726, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: youtubeUrl
+      value: https://www.youtube.com/watch?v=zLKBW2Z2zrQ&list=UUGLA1wgVCPtbYCyBBVOHDYw&index=1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966418453055201, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966418575453627, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: Natascha Blaase-Nielsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966418575453627, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_margin.z
+      value: 10.720243
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: isVertical
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: artifactUrl
+      value: https://youtu.be/7P61YlIIXz0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: studentName
+      value: Natascha Blaase-Nielsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=zLKBW2Z2zrQ&list=UUGLA1wgVCPtbYCyBBVOHDYw&index=1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419808483011, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419808483020, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966420186855729, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +117,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5285966420186855730, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_Name
-      value: Media VK (norm)
+      value: Media VK3 NataschaBlaase-Nielsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966420309416902, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/tusmorke/
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966420400621165, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: "Jeg har ikke en niche endnu, men jeg har til geng\xE6ld charme, god
+        musiksmag, humor og p\xE6nt h\xE5r :)\n\r\n "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881637430451761893, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7139194572869258481, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373007064658185989, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}

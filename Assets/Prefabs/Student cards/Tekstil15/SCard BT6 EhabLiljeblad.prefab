@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4833969199207313581, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3843945095998447297, guid: 7bc20a2534c5637499b88fdd042b71cc, type: 3}
+    - target: {fileID: 4833969199850188659, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_text
+      value: Ehab Liljeblad
+      objectReference: {fileID: 0}
     - target: {fileID: 4833969200403343744, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +61,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4833969200403343751, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: m_Name
-      value: SCard BT
+      value: SCard BT6 EhabLiljeblad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833969200796051377, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_text
+      value: "Bekl\xE6dningsdesign og Tekstil"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833969201080433416, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_text
+      value: Six of Coins
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073744967392671000, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8434005849175291628, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
