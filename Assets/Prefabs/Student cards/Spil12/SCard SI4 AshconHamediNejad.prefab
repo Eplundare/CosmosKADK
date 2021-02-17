@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6188519891300461664, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_text
+      value: Spil & Interaktion
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519891584446681, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_text
+      value: Two of Swords
+      objectReference: {fileID: 0}
     - target: {fileID: 6188519891998335569, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +61,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6188519891998335574, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_Name
-      value: SCard SI
+      value: SCard SI4 AshconHamediNejad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519892517938338, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_text
+      value: 'Ashcon Hamedi Nejad '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519892923841404, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3015451391247685593, guid: 1dd561887400fb74c8babc780b7333c9, type: 3}
+    - target: {fileID: 7204673977836338493, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420960529155243721, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}

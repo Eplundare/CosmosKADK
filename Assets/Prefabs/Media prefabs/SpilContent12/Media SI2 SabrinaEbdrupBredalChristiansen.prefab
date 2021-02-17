@@ -7,9 +7,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 120398741178938266, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436481807178318775, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624348350043304046, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=yI6ZclZpmWY&feature=youtu.be
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=uzm4awzDkww&feature=youtu.be
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: Sabrina Ebdrup Bredal Christiansen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493244, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329421, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Name
-      value: Media SI (norm)
+      value: Media SI2 SabrinaEbdrupBredalChristiansen
       objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +86,39 @@ PrefabInstance:
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: "For mig er historiefort\xE6lling, eventyr og indlevelse grundlaget
+        for hvad jeg g\xF8r. Jeg er vild med at finde nye universer og nysgerrig
+        p\xE5 alle dem jeg endnu ikke kender. At falde med hovedet f\xF8rst i en
+        ny historie, sidde fast og glemme tiden er som mit eget misbrug. Jeg leder
+        altid efter tid til at kunne dykke dybere og f\xE5 den n\xE6ste bid med,
+        inden livet indhenter mig og jeg igen m\xE5 se realiteten af livet i \xF8jnene."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595935412100894330, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686191567832141198, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019576279506147512, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085755091582524645, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068647684083163426, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707989576632984278, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}

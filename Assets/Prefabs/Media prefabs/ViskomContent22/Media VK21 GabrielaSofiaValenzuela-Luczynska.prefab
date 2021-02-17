@@ -7,6 +7,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1557513302795934151, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630377143571651994, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948879683492209577, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4597577366530039901, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889519992711987912, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5097687917983871249, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966418545072513, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: "Design er et sprog af sanser og f\xF8lelser\r\nEt sprog der formulerer
+        det der ikke findes ord for\r\nDet er en m\xE5de at interagere med verden,
+        blive en del af den\r\nSkabe helhed - synergi\r\nEn m\xE5de at forst\xE5
+        sig selv, udtrykke sig selv\r\nDele sig selv, tanker og f\xF8lelser\r\nEgen
+        vision"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=iu3gEQKDS3U
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: presentationUrl
+      value: https://youtu.be/8ZGed3yAVtA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419613797030, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: Gabriela Valenzuela Luczynska
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419808483011, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419808483020, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966420186855729, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +105,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5285966420186855730, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_Name
-      value: Media VK (norm)
+      value: Media VK21 GabrielaSofiaValenzuela-Luczynska
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881637430451761893, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7139194572869258481, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373007064658185989, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
