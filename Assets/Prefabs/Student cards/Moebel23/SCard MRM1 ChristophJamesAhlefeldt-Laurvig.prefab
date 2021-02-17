@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4902501946218404047, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992120359301618491, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8221041060039804835, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +61,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8221041060039804836, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
       propertyPath: m_Name
-      value: SCard MRM
+      value: SCard MRM1 ChristophJamesAhlefeldt-Laurvig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221041061511093902, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1535454665956297818, guid: 431e6711da54d00418b8041f914d3e5b, type: 3}
+    - target: {fileID: 8221041061633802576, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: m_text
+      value: Student name
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
