@@ -7,6 +7,60 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 294069023972588780, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384250004890828568, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607900152853941441, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112488031353, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112644482952, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: "Mit navn er Filip Hede. Igennem mine designs pr\xF8ver jeg at finde
+        balancen mellem simplicitet og forbinde adskille funktioner i et objekt,
+        s\xE5 det har mest muligt at tilbyde. Bev\xE6gelse og at kunne v\xE6re i
+        stand til mere er kernen i min inspiration. Jeg arbejder h\xE5rdt p\xE5 ikke
+        at skabe nogle us\xE6dvanlige eller ekstravagante resultater. Som jeg ser
+        det, er forskellen mellem kunst og design meget simpel. Kunst handlet om
+        \u2019jeg\u2019, hvorimod design handler om \u2019os\u2019."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113356690607, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: Filip Hede
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: artifactUrl
+      value: https://youtu.be/C6AX5gwEYYM
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: studentName
+      value: Filip Hede
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: presentationUrl
+      value: https://youtu.be/LmYEFJmnnqs
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699397, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699402, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113655283341, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +107,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906043, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_Name
-      value: Media MRM (norm)
+      value: Media MRM9 FilipHede
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430146907476754700, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934170866520670968, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617911677692401614, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840027590559404947, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657975814428110420, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036470858247859616, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}

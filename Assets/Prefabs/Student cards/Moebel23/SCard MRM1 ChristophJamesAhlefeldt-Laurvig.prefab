@@ -63,13 +63,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: SCard MRM1 ChristophJamesAhlefeldt-Laurvig
       objectReference: {fileID: 0}
+    - target: {fileID: 8221041060705031467, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: m_text
+      value: Eight of Cups
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221041060758701745, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: studentName
+      value: Christoph Ahlefeldt-Laurvig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221041060953590162, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: m_text
+      value: "M\xF8beldesign, Rum og Materialer"
+      objectReference: {fileID: 0}
     - target: {fileID: 8221041061511093902, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1535454665956297818, guid: 431e6711da54d00418b8041f914d3e5b, type: 3}
+      objectReference: {fileID: 1152914606370955855, guid: 64c02de705673cd469d784faf03f5407, type: 3}
     - target: {fileID: 8221041061633802576, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
       propertyPath: m_text
-      value: Student name
+      value: Christoph Ahlefeldt-Laurvig
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
