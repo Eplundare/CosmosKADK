@@ -7,6 +7,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 294069023972588780, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384250004890828568, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607900152853941441, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112488031353, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112644482952, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: "En formgivende og formskabende handling. God formgivning har tanke
+        p\xE5 \xE6stetisk og/eller funktion. Funktion er ikke n\xF8dvendig. Men indtr\xE6ffer
+        funktionen m\xE5 den v\xE6re omfavnende og mangfoldig. At v\xE6re inkluderende
+        er godt, godt design er inkluderende. Inkluderende for folket. Alt materiale
+        har en naturlighed. Vi kan \xE6ndre p\xE5 den, forme den og tage den v\xE6k
+        fra dens naturlighed. Men vi m\xE5 huske p\xE5 dens egen vilje. Vi bryder
+        os om, hvad der er. Intet er uden v\xE6rdi. Nysgerrighed er taknemlighed.
+        Husk at v\xE6re nysgerrig."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113356690607, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: Emma Bonven
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: studentName
+      value: Emma Bonven
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=NvXWj1qiP8o
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699397, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699402, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113655283341, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +104,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906043, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_Name
-      value: Media MRM (norm)
+      value: Media MRM2 EmmaBonven
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430146907476754700, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934170866520670968, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617911677692401614, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840027590559404947, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657975814428110420, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036470858247859616, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}

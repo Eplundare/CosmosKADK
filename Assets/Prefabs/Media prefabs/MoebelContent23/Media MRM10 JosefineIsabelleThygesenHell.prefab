@@ -7,6 +7,65 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 294069023972588780, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384250004890828568, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607900152853941441, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112488031353, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112644482952, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: "\"VORES EKSITENS FINDER STED . I RUM.  UDE SOM INDE.   DET ER DISSE
+        RUM . JEG EVIG ER BETAGET AF . RUMMETS ATMOSF\xC6RE . I SIN HELHED BEST\xC5R
+        . FRA GULV TIL LOFT. FRA LYSET TIL LYDENE .  RUM HVORI JEG I MIT ARBEJDE
+        . TILT\xC6NKER ALT EN TANKE . SOM NATUREN DER INTET UBRUGELIGT SKABER . DET
+        HANDLER IKKE OM MIG, SAMT HELLER IKKE OM DET BLOT AT SKABE . DEN DYBE TALLERKEN
+        ER OPFUNDET . DET HANDLER OM HVORDAN  &  ALLER VIGTIGST HVORFOR . SOM LYDEN
+        AF MUSIK , VIL JEG SKABE RUM,  DER ER SMUKKE . FORT\xC6LLENDE . OMFAVNENDE
+        . EN LISE FOR SJ\xC6LEN.\nSOM V\xC6KKER DIT VELV\xC6R OG SKABER N\xC6RV\xC6R
+        . MELLEM OS.                                                                                                                                                                                                                                                                                                               
+        VORES ARV F\xD8RER OS TIL NUET & FREMTIDEN. ALT JEG SKABER ER TIL FOR AT
+        BLIVE \u2026..                                                                                                           
+        Josefine Hell \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113356690607, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: Josefine Hell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: artifactUrl
+      value: 'https://www.youtube.com/watch?v=GDD1aM8eJkk '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: studentName
+      value: Josefine Hell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: presentationUrl
+      value: 'https://www.youtube.com/watch?v=U0zTVIogrM8 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699397, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699402, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113655283341, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +112,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906043, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_Name
-      value: Media MRM (norm)
+      value: Media MRM10 JosefineIsabelleThygesenHell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430146907476754700, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934170866520670968, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617911677692401614, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840027590559404947, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657975814428110420, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036470858247859616, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}

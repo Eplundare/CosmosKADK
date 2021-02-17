@@ -7,6 +7,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 294069023972588780, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384250004890828568, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607900152853941441, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112488031353, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112644482952, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: "Rumslighet \xE4r f\xF6r mig ett s\xE5 himla starkt format, d\xE4r man
+        har makten att kunna skapa en hel atmosf\xE4r. I min design v\xE4nder jag
+        st\xE4ndigt tillbaka till m\xE4nniskan i samspel med rummet och objekten,
+        och hur dessa p\xE5verkar oss. Genom att analysera v\xE5r omgivning samt
+        problematik i olika skalor och sammanhang, jobbar jag m\xE5linriktat men
+        ocks\xE5 lekfullt. Uttrycket i form av taktilitet, f\xE4rg, form och k\xE4nsla
+        \xE4r minst lika viktigt f\xF6r mig. Genom detta st\xE4ndiga samspel tror
+        jag starkt p\xE5 att s\xE5 v\xE4l betydelsefulla som tilltalade design skapas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113356690607, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: Agnes Guggenheimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=W891hUuRHDw&feature=youtu.be
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: studentName
+      value: Agnes Guggenheimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=K6ec0MeIMbk&feature=youtu.be
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699397, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113563699402, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113655283341, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/design.agnes
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +108,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906043, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_Name
-      value: Media MRM (norm)
+      value: Media MRM8 AgnesGuggenheimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430146907476754700, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934170866520670968, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617911677692401614, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840027590559404947, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657975814428110420, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036470858247859616, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
