@@ -7,9 +7,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 120398741178938266, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436481807178318775, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624348350043304046, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=Ltf4GxN0XIg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: studentName
+      value: Mads Bradtberg Arvedsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=xPvN6xPJwQ4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: Mads Bradtberg Arvedsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274806485499, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: https://isakous.itch.io/shelltered-demo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493244, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329421, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Name
-      value: Media SI (norm)
+      value: Media SI1 MadsBradtbergArvedsen
       objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +94,43 @@ PrefabInstance:
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963275987917583, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: "Jeg str\xE6ber efter at skabe fort\xE6llinger der tester seerens gr\xE6nser.
+        Jeg vil holde seeren p\xE5 kanten af at kalde det hele af, men stadig v\xE6re
+        s\xE5 fordybet i min narrativ, at de forts\xE6tter. N\xE5r jeg tr\xE6der
+        i skoene som en spildesigner er det altid denne oplevelse jeg l\xE6nges efter
+        at sprede. Jeg elsker at udforme disse id\xE9er med alle de kreative redskaber
+        jeg har til r\xE5dighed, s\xE5 som kreativ skrivning og tegning."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595935412100894330, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686191567832141198, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019576279506147512, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085755091582524645, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068647684083163426, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707989576632984278, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}

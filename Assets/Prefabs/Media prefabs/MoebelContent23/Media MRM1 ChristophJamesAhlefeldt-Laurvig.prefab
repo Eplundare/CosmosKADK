@@ -19,12 +19,49 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1607900152853941441, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112488031353, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112644482952, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: "Jeg er bekymret for vores m\xE5de at leve p\xE5. Vores overforbrug.
+        Vores ligegyldighed. Vores uopm\xE6rksomhed. Jeg tror p\xE5, at dette er
+        sket i forbindelse med vores distancering til naturen. Vi t\xE6nker ikke
+        l\xE6ngere p\xE5 os selv som en del af den. Vi lader os styre af den mekaniske
+        tid, i stedet for bare at f\xF8lge med den organiske tid. \n\nJeg vil skabe
+        design, hvor man glemmer tiden og bruger den omkringliggende naturs atmosf\xE6re."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113356690607, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
+      value: Christoph Ahlefeldt-Laurvig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: artifactUrl
+      value: https://youtu.be/2QJ_Wgp7u_I
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: studentName
+      value: Christoph Ahlefeldt-Laurvig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: presentationUrl
+      value: https://youtu.be/fFkfwPlwDh0
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439113563699397, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2076439113563699402, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113655283341, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}

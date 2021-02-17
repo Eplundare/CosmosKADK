@@ -7,6 +7,68 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1557513302795934151, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630377143571651994, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948879683492209577, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4597577366530039901, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889519992711987912, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5097687917983871249, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966418545072513, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: "Design for mig er en m\xE5de at bearbejde alle de indtryk jeg rammes
+        af i hverdagen. Det er ret befriende at t\xF8mme hovedet og visualisere det
+        p\xE5 papir eller sk\xE6rm, og det er en m\xE5de hvorp\xE5 jeg kan slappe
+        af og udtrykke mig omkring emner, hvor ord ikke n\xF8dvendigvis kan g\xF8re
+        det alene. Jeg kan ikke forstille mig en hverdag uden farver eller kompositioner,
+        og det er noget jeg altid har v\xE6ret fascineret af og lagt m\xE6rke til
+        omkring mig. Jeg udtrykker mig visuelt fordi jeg ikke kan lade v\xE6re."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: artifactUrl
+      value: https://youtu.be/XXnC-KIO3y8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: studentName
+      value: Mette Pickering  Vemmelund Justesen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=jK_rW0Avbec&feature=youtu.be
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419613797030, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: Mette Pickering Vemmelund Justesen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419808483011, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419808483020, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419849470084, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/mette.p.v.justesen/
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966420186855729, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +115,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5285966420186855730, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_Name
-      value: Media VK (norm)
+      value: Media VK12 MettePickeringVemmelundJustesen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881637430451761893, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7139194572869258481, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373007064658185989, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
