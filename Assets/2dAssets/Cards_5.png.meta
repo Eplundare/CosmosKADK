@@ -85,13 +85,16 @@ TextureImporter:
     second: SCard VK22 ElisaJosefineZederkof
   - first:
       213: -1647100643232906141
-    second: CardSheet_1_12
+    second: Scard Void
   - first:
       213: 3843945095998447297
-    second: CardSheet_1_13
+    second: Scard Black
   - first:
       213: -4548028244660499266
-    second: CardSheet_1_14
+    second: Scard White
+  - first:
+      213: -2951681772931210722
+    second: Cards_5_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -386,9 +389,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 771
-        y: 347
+        y: 348
         width: 178
-        height: 331
+        height: 330
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,7 +448,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CardSheet_1_12
+      name: Scard Void
       rect:
         serializedVersion: 2
         x: 390
@@ -466,7 +469,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CardSheet_1_13
+      name: Scard Black
       rect:
         serializedVersion: 2
         x: 580
@@ -487,13 +490,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CardSheet_1_14
+      name: Scard White
       rect:
         serializedVersion: 2
         x: 771
         y: 9
         width: 178
-        height: 331
+        height: 330
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,6 +506,27 @@ TextureImporter:
       bones: []
       spriteID: ebc4190786822e0c0800000000000000
       internalID: -4548028244660499266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_5_0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 9
+        width: 178
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12a072f0158907d0800000000000000
+      internalID: -2951681772931210722
       vertices: []
       indices: 
       edges: []
