@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 821df6ef321d840419bf1023c5ddd896
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8795319117429746908
+    second: Crystal_ball_spritesheet_0
+  - first:
+      213: -2617696481035871123
+    second: Crystal_ball_spritesheet_6
+  - first:
+      213: -78939927082161611
+    second: Crystal_ball_spritesheet_7
+  - first:
+      213: -2855594249378166174
+    second: Crystal_ball_spritesheet_8
+  - first:
+      213: 4606982893201118008
+    second: Crystal_ball_spritesheet_9
+  - first:
+      213: -4176223576996070117
+    second: Crystal_ball_spritesheet_10
+  - first:
+      213: 8763446021188938159
+    second: Crystal_ball_spritesheet_11
+  - first:
+      213: 6693809835337490223
+    second: Crystal_ball_spritesheet_12
+  - first:
+      213: -190523504328988267
+    second: Crystal_ball_spritesheet_13
+  - first:
+      213: -7909594266047415450
+    second: Crystal_ball_spritesheet_14
+  - first:
+      213: -2560106375804126425
+    second: Crystal_ball_spritesheet_15
+  - first:
+      213: -8337651478607787277
+    second: Crystal_ball_spritesheet_16
+  - first:
+      213: -3229450225014249570
+    second: Crystal_ball_spritesheet_17
+  - first:
+      213: 8741299051427403997
+    second: Crystal_ball_spritesheet_18
+  - first:
+      213: -4095889941577055385
+    second: Crystal_ball_spritesheet_19
+  - first:
+      213: -9049874951522239258
+    second: Crystal_ball_spritesheet_20
+  - first:
+      213: -6014714178515420178
+    second: Crystal_ball_spritesheet_21
+  - first:
+      213: 9152574881331422157
+    second: Crystal_ball_spritesheet_22
+  - first:
+      213: 1243375166150002718
+    second: Crystal_ball_spritesheet_23
+  - first:
+      213: -5329338783412164485
+    second: Crystal_ball_spritesheet_24
+  - first:
+      213: -9032732291350248080
+    second: Crystal_ball_spritesheet_25
+  - first:
+      213: -5277701648361238110
+    second: Crystal_ball_spritesheet_26
+  - first:
+      213: 2215445424875968005
+    second: Crystal_ball_spritesheet_27
+  - first:
+      213: 5941211574319044028
+    second: Crystal_ball_spritesheet_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 922
+        width: 216
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc2a9043204f0a70800000000000000
+      internalID: 8795319117429746908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 697
+        width: 250
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c111e6be21cabd0800000000000000
+      internalID: -2617696481035871123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 839
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a2ca7fd8c87eef0800000000000000
+      internalID: -78939927082161611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 842
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a8a27e824ee58d0800000000000000
+      internalID: -2855594249378166174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 843
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833dd83588a4fef30800000000000000
+      internalID: 4606982893201118008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 843
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1db98688c21b06c0800000000000000
+      internalID: -4176223576996070117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 843
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9e64db9b30e9970800000000000000
+      internalID: 8763446021188938159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 841
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f9e45749035ec50800000000000000
+      internalID: 6693809835337490223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 839
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599ab1bd1ef1b5df0800000000000000
+      internalID: -190523504328988267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 745
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bf6cefbe97b3290800000000000000
+      internalID: -7909594266047415450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 732
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b7bf2b0dca87cd0800000000000000
+      internalID: -2560106375804126425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 743
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa829ca726ba4c80800000000000000
+      internalID: -8337651478607787277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 745
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9768367120be23d0800000000000000
+      internalID: -3229450225014249570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 429
+        width: 231
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd81ac38c255f4970800000000000000
+      internalID: 8741299051427403997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 436
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76344319cc97827c0800000000000000
+      internalID: -4095889941577055385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 371
+        width: 250
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecbfcc0ea2686280800000000000000
+      internalID: -9049874951522239258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 119
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb351c6251778ca0800000000000000
+      internalID: -6014714178515420178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 167
+        width: 134
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc32ce5bc5a740f70800000000000000
+      internalID: 9152574881331422157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 23
+        width: 250
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18c9ec302b514110800000000000000
+      internalID: 1243375166150002718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 23
+        width: 250
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78610fcc926a06b0800000000000000
+      internalID: -5329338783412164485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 119
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0754ed6a6d945a280800000000000000
+      internalID: -9032732291350248080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 22
+        width: 134
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a15fe23056d1c6b0800000000000000
+      internalID: -5277701648361238110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 35
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5061ff040e7debe10800000000000000
+      internalID: 2215445424875968005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 31
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5d9bee27c637250800000000000000
+      internalID: 5941211574319044028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d2ee3b22bfea659419cc99add40f7e02
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
