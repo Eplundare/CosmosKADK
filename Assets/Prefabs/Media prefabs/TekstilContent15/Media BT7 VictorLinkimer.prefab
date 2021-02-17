@@ -19,6 +19,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3344134268279293355, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344134268279293355, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344134268279293355, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3580109235889356488, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -116,6 +128,10 @@ PrefabInstance:
     - target: {fileID: 4264781945838909094, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_text
       value: Victor Linkimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945838909095, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 5600765618063498333, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh

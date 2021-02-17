@@ -96,6 +96,10 @@ PrefabInstance:
         p\xE5virke mennesker i en bedre retning. Jeg er nysgerrig p\xE5 hvordan dette
         kan g\xF8res ved brug af referencer og symbolik.\n\r\n "
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781945513216707, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -103,6 +107,10 @@ PrefabInstance:
     - target: {fileID: 4264781945513216716, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: isVertical
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: artifactUrl

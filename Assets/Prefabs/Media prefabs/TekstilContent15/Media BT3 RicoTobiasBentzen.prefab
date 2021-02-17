@@ -33,7 +33,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264781944283637121, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_text
-      value: "\n "
+      value: "Alt er design, design er alt. Eller er det?\r\nDer er tre svar til
+        et godt design - JA, NEJ og WOW. Eller er der flere?\r\nI s\xE5 fald hvilket
+        svar s\xF8ger du som kreat\xF8r, n\xE5r du deler dit design med omverden?\r\nIdag
+        har vi i designerens rolle det f\xE6lles ansvar, at vi er n\xF8dsaget til
+        at t\xE6nke os godt og grundigt om, inden vi spr\xF8jter nye produkter ud
+        p\xE5 markedet.\r\nDen globale produktionskvote er for l\xE6ngst overskredet,
+        og derfor kan vores k\xE6re planet ikke t\xE5le mere skrammel.\r\nJeg ser
+        en \xE5bning, jeg ser et uforl\xF8st potentiale.\r\nMulighederne er mange,
+        men for at besvare mit eget sp\xF8rgsm\xE5l, skal vi f\xF8rst og fremmest
+        t\xE6nke i l\xF8sninger, for dern\xE6st at f\xE5 svaret vi endnu ikke kender
+        til.f"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944283637122, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4264781944441792112, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_IsActive
@@ -110,6 +124,10 @@ PrefabInstance:
     - target: {fileID: 4264781945838909094, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_text
       value: Rico Bentzen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945838909095, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 5600765618063498333, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh

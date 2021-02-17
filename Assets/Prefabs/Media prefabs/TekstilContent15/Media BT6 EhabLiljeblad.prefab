@@ -103,6 +103,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: isVertical
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: artifactUrl
       value: https://youtu.be/rFV4tzmaK_w
       objectReference: {fileID: 0}
