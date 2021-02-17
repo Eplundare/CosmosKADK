@@ -24,12 +24,20 @@ PrefabInstance:
       value: https://youtu.be/cBFFe9C9sQ4
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: studentName
+      value: Anastasia Jacobsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: presentationUrl
       value: https://youtu.be/OVJT8kuUL6c
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: Anastasia Jacobsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274806485499, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/anna.b.bonana/
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Mesh

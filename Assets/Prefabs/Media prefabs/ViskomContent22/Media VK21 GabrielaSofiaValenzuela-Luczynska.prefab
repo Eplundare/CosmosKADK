@@ -44,6 +44,10 @@ PrefabInstance:
       value: https://www.youtube.com/watch?v=iu3gEQKDS3U
       objectReference: {fileID: 0}
     - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: studentName
+      value: Gabriela Valenzuela Luczynska
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: presentationUrl
       value: https://youtu.be/8ZGed3yAVtA
       objectReference: {fileID: 0}

@@ -24,12 +24,20 @@ PrefabInstance:
       value: https://youtu.be/q-ZH4R7o7Gs
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: studentName
+      value: Ashcon Hamedi Nejad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: presentationUrl
       value: https://youtu.be/wWIvKChcv3M
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: Ashcon Hamedi Nejad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274806485499, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/ashcon_creates/
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Mesh

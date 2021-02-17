@@ -24,12 +24,20 @@ PrefabInstance:
       value: https://www.youtube.com/watch?v=YbiX9yvpQlQ
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: studentName
+      value: Xinru Liu Fog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=jGpnzQh7cWg
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: Xinru Liu Fog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274806485499, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: http://q5.pdfdo.com/Download/021604141889/021604141889.html
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Mesh
