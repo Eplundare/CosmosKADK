@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8674851837377487807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4410207630879655384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1acc35fef30936544b986cff49b3eebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  studInfo: {fileID: 0}
+  studMedia: {fileID: 0}
 --- !u!1001 &9088687467930479944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7,6 +21,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4833969199207313581, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9209169857804412261, guid: 7bc20a2534c5637499b88fdd042b71cc, type: 3}
+    - target: {fileID: 4833969199850188659, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_text
+      value: Sasha Miriam Babenco
+      objectReference: {fileID: 0}
     - target: {fileID: 4833969200403343744, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +75,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4833969200403343751, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: m_Name
-      value: SCard BT
+      value: SCard BT1 SashaMiriamBabenco
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833969200796051377, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_text
+      value: "Bekl\xE6dningsdesign & Tekstil"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833969200999884946, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: studentName
+      value: Sasha Miriam Babenco
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833969200999884946, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: cardYoutubeUrl
+      value: https://www.youtube.com/watch?v=HrpcZmRnbTk
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833969200999884946, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: cardHasAnimation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833969201080433416, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_text
+      value: The sun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073744967392671000, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8434005849175291628, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+--- !u!1 &4410207630879655384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4833969200999884944, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
+  m_PrefabInstance: {fileID: 9088687467930479944}
+  m_PrefabAsset: {fileID: 0}

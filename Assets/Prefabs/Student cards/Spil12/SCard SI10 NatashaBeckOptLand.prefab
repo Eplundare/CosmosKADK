@@ -7,6 +7,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6188519891300461664, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_text
+      value: Spil & Interaktionsdesign
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519891495117635, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: studentName
+      value: Natasha Beck Op't Land
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519891584446681, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_text
+      value: Eight of Coins
+      objectReference: {fileID: 0}
     - target: {fileID: 6188519891998335569, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +65,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6188519891998335574, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_Name
-      value: SCard SI
+      value: SCard SI10 NatashaBeckOptLand
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519892517938338, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_text
+      value: Natasha Beck Op't Land
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519892923841404, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1693088200677683784, guid: 37db2ae7a0b83244e91882f7f51299a3, type: 3}
+    - target: {fileID: 7204673977836338493, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420960529155243721, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
