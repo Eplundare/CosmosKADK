@@ -7,9 +7,53 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 120398741178938266, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 876146460554754260, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436481807178318775, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624348350043304046, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=4tXhtnfFbxE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: studentName
+      value: "Isak Kristian S\xF8lvh\xF8j Ravn"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=Br8stHkes84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: "Isak Kristian S\xF8lvh\xF8j Ravn"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274806485499, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: https://isakous.itch.io/shelltered-demo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493244, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329421, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Name
-      value: Media SI (norm)
+      value: "Media SI11 IsakKristianS\xF8lvh\xF8jRavn"
       objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +98,44 @@ PrefabInstance:
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963275987917583, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: "HEJ! Og velkommen til! Mit navn er Isak Ravn, og jeg elsker den spillende
+        og legende oplevelse. Jeg har designet dem alle, fra videospil henover leget\xF8j
+        til g\xE5derum, og min passion der binder dem alle sammen er den finurlige
+        og eksperimenterende spiloplevelse. Jeg pr\xF8ver altid at skubbe til gr\xE6nserne
+        med hvad der er muligt, og udforsker i alle de hj\xF8rner jeg kan. S\xE5
+        hvis det du har l\xE6st lyder interessant, s\xE5 ring 93-90-93-69 for din
+        n\xE6ste legende oplevelse hos ISAKS LEGENDE DESIGN."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595935412100894330, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686191567832141198, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019576279506147512, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085755091582524645, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068647684083163426, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707989576632984278, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}

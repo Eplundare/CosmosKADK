@@ -7,9 +7,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 120398741178938266, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436481807178318775, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624348350043304046, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=YbiX9yvpQlQ
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: studentName
+      value: Xinru Liu Fog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=jGpnzQh7cWg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: Xinru Liu Fog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274806485499, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: http://q5.pdfdo.com/Download/021604141889/021604141889.html
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493244, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329421, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Name
-      value: Media SI (norm)
+      value: Media SI3 XinruLiuFog
       objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +94,39 @@ PrefabInstance:
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: "Som spildesign studerende er min interesse i at lave lerfigurer gradvist
+        blevet dybere for at bygge hele universet i spil. Mit arbejde er stort set
+        inspireret af forbindelsen mellem naturlandskab og mennesker. En f\xF8lelse
+        af fordybelse dannes n\xE5r spilleren er fuld af nysgerrighed efter at udforske
+        den ukendte verden. Dette er hvad jeg vil l\xE6re som spildesigner, og det
+        er ogs\xE5 noget, jeg vil arbejde h\xE5rdt for at udforske."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595935412100894330, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686191567832141198, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019576279506147512, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085755091582524645, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068647684083163426, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707989576632984278, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}

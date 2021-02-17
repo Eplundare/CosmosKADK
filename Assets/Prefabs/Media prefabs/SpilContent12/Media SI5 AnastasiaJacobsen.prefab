@@ -7,9 +7,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 120398741178938266, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436481807178318775, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624348350043304046, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: artifactUrl
+      value: https://youtu.be/cBFFe9C9sQ4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: studentName
+      value: Anastasia Jacobsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: presentationUrl
+      value: https://youtu.be/OVJT8kuUL6c
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: Anastasia Jacobsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274806485499, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/anna.b.bonana/
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493235, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274916493244, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329421, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Name
-      value: Media SI (norm)
+      value: Media SI5 AnastasiaJacobsen
       objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +94,38 @@ PrefabInstance:
     - target: {fileID: 1832963275542329422, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_text
+      value: "Min tilgang til design er leg og l\xE6ring gennem h\xE5rd arbejde.
+        Det er legen der b\xE6rer mig igennem det h\xE5rde arbejde. P\xE5 den m\xE5de
+        investerer jeg energi og passion i at udfordre og eksperimentere med spildesign.
+        Jeg str\xE6ber efter at blive en alsidig designer, der kan kreerer og konstruerer
+        spil, der giver spilleren den sammen gl\xE6de for leg, som jeg har."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595935412100894330, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686191567832141198, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019576279506147512, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085755091582524645, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068647684083163426, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707989576632984278, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
