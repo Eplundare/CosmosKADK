@@ -118,6 +118,10 @@ PrefabInstance:
       value: https://www.instagram.com/chamiarchives
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=gcrS28VZU7k
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: studentName
       value: Salim Musbah Chami Haddad
       objectReference: {fileID: 0}

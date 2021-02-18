@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 533852559006999335, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1254121951292010737, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -105,7 +109,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945048414829, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_text
-      value: " -\n\r\n "
+      value: "Jeg er fascineret i gr\xE6nsen mellem det virkelige og det fiktive.
+        Jeg vil som designer fors\xF8ge at skabe et univers og en fort\xE6lling hvor
+        man kan flygte fra den virkelige hverdag ind i en mere dr\xF8mmende verden.
+        For tiden er jeg is\xE6r optaget af bekl\xE6dning og tekstil i forhold til
+        hvordan man kan bruge det til at forme ens krop og identitet og bruge det
+        til at bryde normer og gr\xE6nser. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945513216705, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945513216707, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh
