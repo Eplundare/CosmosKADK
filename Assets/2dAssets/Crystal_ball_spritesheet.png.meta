@@ -13,7 +13,7 @@ TextureImporter:
     second: Crystal_ball_spritesheet_7
   - first:
       213: -2855594249378166174
-    second: Crystal_ball_spritesheet_8
+    second: Browse_Bg3
   - first:
       213: 4606982893201118008
     second: Crystal_ball_spritesheet_9
@@ -76,16 +76,19 @@ TextureImporter:
     second: Crystal_ball_spritesheet_28
   - first:
       213: -5329018170349632159
-    second: Crystal_ball_spritesheet_1
+    second: Browse_Bg1
   - first:
       213: 7471927227741718255
-    second: Crystal_ball_spritesheet_2
+    second: Browse_Bg2
   - first:
       213: 6365960044500582415
-    second: Crystal_ball_spritesheet_3
+    second: Browse_ArrowR
   - first:
       213: 4173435909624868982
     second: Crystal_ball_spritesheet_4
+  - first:
+      213: 2626159070457590065
+    second: Browse_ArrowW
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -502,16 +505,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_ball_spritesheet_1
+      name: Browse_Bg1
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 872
-        width: 65
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -523,16 +526,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_ball_spritesheet_2
+      name: Browse_Bg2
       rect:
         serializedVersion: 2
         x: 410
-        y: 783
+        y: 782
         width: 64
-        height: 64
+        height: 65
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -544,7 +547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_ball_spritesheet_3
+      name: Browse_ArrowR
       rect:
         serializedVersion: 2
         x: 422
@@ -573,7 +576,7 @@ TextureImporter:
         width: 217
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -581,6 +584,48 @@ TextureImporter:
       bones: []
       spriteID: 670bc0619d50be930800000000000000
       internalID: 4173435909624868982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browse_ArrowW
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 692
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1317b46b2cdf17420800000000000000
+      internalID: 2626159070457590065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browse_Bg3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 946
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a8a27e824ee58d0800000000000000
+      internalID: -2855594249378166174
       vertices: []
       indices: 
       edges: []
