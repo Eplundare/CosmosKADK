@@ -25,7 +25,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: artifactUrl
-      value: https://www.youtube.com/watch?v=4tXhtnfFbxE
+      value: https://youtu.be/7apfwNqsjNI
       objectReference: {fileID: 0}
     - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: studentName
