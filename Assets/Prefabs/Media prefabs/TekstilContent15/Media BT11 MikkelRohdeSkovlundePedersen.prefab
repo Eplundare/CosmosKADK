@@ -7,6 +7,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 452312105354982149, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254121951292010737, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588387751048285925, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580109235889356488, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804040583970409745, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944263676347, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: Mikkel Rohde
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944283637121, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: "Historier om fortiden - produkter til fremtiden. Mit arbejde fungerer
+        som en gr\xE6nses\xF8gende analyse af menneskets natur, omgivelser og kontekst.
+        Hvorfor g\xF8r vi, som vi g\xF8r? Hvad er vores v\xE6rdier, prioriteter og
+        st\xF8rste \xF8nsker? Er lykke en illusion, - noget vi forestiller os? Og
+        hvordan er lykke og forbrug overhovedet forbundet? Temaer jeg arbejder med
+        er ofte samfundskritiske og udfordrende. Tilgangen er en kombination af omfattende
+        research, kunstnerisk fortolkning, regels\xE6t og dogmer. Behovet f\xF8rst
+        - egoet dern\xE6st."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944711723745, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781944801330481, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +92,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264781944801330482, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Name
-      value: Media BT (norm)
+      value: Media BT11 MikkelRohdeSkovlundePedersen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944940455878, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/mikkelrohde_/
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414829, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: "Historier om fortiden - produkter til fremtiden. Mit arbejde fungerer
+        som en gr\xE6nses\xF8gende analyse af menneskets natur, omgivelser og kontekst.
+        Hvorfor g\xF8r vi, som vi g\xF8r? Hvad er vores v\xE6rdier, prioriteter og
+        st\xF8rste \xF8nsker? Er lykke en illusion, - noget vi forestiller os? Og
+        hvordan er lykke og forbrug overhovedet forbundet? Temaer jeg arbejder med
+        er ofte samfundskritiske og udfordrende. Tilgangen er en kombination af omfattende
+        research, kunstnerisk fortolkning, regels\xE6t og dogmer. Behovet f\xF8rst
+        - egoet dern\xE6st. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945513216707, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945513216716, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945537698948, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/mikkelrohde_/
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: artifactUrl
+      value: https://www.youtube.com/watch?v=nqEnAFV_jqc&feature=youtu.be
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: studentName
+      value: Mikkel Rohde
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: presentationUrl
+      value: https://youtu.be/XiVK0jd6Zeg
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945838909094, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: Mikkel Rohde
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600765618063498333, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6528122229076008873, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265513157991489946, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487635695731451335, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}

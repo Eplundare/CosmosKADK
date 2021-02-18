@@ -7,6 +7,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 452312105354982149, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254121951292010737, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588387751048285925, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580109235889356488, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804040583970409745, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944283637121, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: "Vi lever i en kaotisk tid. Vores demokrati og samfund er konstant udfordret.
+        Vi har t\xE6t p\xE5 ingen tillid til politikerne, og dem der har, n\xE6rmest
+        tilbeder dem som guder i sm\xE5 ekkokamre p\xE5 facebook. Vi er ligeglade
+        med fundamentale principper som retsstat og den frie presse. Jeg designer
+        ud fra dystopiske fremtidsscenarier, hvor jeg unders\xF8ger samfundets rolle
+        og stiller sp\xF8rgsm\xE5l, der f\xE5 beskueren til at reflektere over nutidens
+        v\xE6rdier og idealer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944441792112, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781944801330481, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +87,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264781944801330482, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Name
-      value: Media BT (norm)
+      value: "Media BT9 MagnusSiniusM\xE5nsson"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945513216707, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945513216716, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945537698948, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: https://www.instagram.com/mag__moon/
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: artifactUrl
+      value: https://youtu.be/eok5LzFTs54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: studentName
+      value: "Magnus Sinius M\xE5nsson"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: presentationUrl
+      value: https://youtu.be/2NJA8-3JnjU
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945838909094, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: "Magnus Sinius M\xE5nsson"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600765618063498333, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6528122229076008873, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265513157991489946, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487635695731451335, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
