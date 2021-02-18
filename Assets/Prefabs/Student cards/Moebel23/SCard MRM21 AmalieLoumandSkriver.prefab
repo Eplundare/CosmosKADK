@@ -1,21 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!111 &676765879739146289
-Animation:
+--- !u!114 &5335525552837446380
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3398663811734591381}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 2e5d8a6892b330e46b55f04a96cdc490, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 2e5d8a6892b330e46b55f04a96cdc490, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c921096838cd142977aec140900299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 3
+  sprites:
+  - {fileID: 6146931587944687209, guid: 3f0bc47ebe05b3d459bff0d8b0f30644, type: 3}
+  - {fileID: 8114730714084307091, guid: 3f0bc47ebe05b3d459bff0d8b0f30644, type: 3}
+  - {fileID: 6093308962565442511, guid: 3f0bc47ebe05b3d459bff0d8b0f30644, type: 3}
 --- !u!1001 &6718662502750521621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91,6 +92,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "M\xF8beldesign, Rum & Materialer"
       objectReference: {fileID: 0}
+    - target: {fileID: 8221041061511093902, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6146931587944687209, guid: 3f0bc47ebe05b3d459bff0d8b0f30644, type: 3}
     - target: {fileID: 8221041061511093902, guid: a5c7fc0e72628cd4e9403c877c100f24, type: 3}
       propertyPath: m_Enabled
       value: 1

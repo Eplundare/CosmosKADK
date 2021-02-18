@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7264078122194179294}
   - component: {fileID: 7320542005697346293}
-  - component: {fileID: 3515301477761408376}
+  - component: {fileID: 4949827517218050296}
   m_Layer: 0
   m_Name: Arm Pivot
   m_TagString: Untagged
@@ -123,7 +123,7 @@ Animator:
   m_GameObject: {fileID: 5180150710453031132}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 223cd158c11706d44bf068ae834f7579, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6f664b1ee59270c4ca69243197d53c9f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -132,7 +132,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3515301477761408376
+--- !u!114 &4949827517218050296
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5180150710453031132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b14a7af13ad8ca478ed094ad0458bf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 48139c12f3a7ba343a2a4139fc3c5860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &7060387399738633759
