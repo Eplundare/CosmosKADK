@@ -86,6 +86,30 @@ TextureImporter:
   - first:
       213: 573420381627378501
     second: 2dAssets_SI-Animation-Spritesheet_27
+  - first:
+      213: -1272518051822043828
+    second: 2dAssets_SI-Animation-Spritesheet_28
+  - first:
+      213: 8457550055426692440
+    second: 2dAssets_SI-Animation-Spritesheet_29
+  - first:
+      213: 1349886042206465765
+    second: 2dAssets_SI-Animation-Spritesheet_30
+  - first:
+      213: -6029560359444716544
+    second: 2dAssets_SI-Animation-Spritesheet_31
+  - first:
+      213: 1640631415318641188
+    second: 2dAssets_SI-Animation-Spritesheet_32
+  - first:
+      213: 4351061282187204502
+    second: 2dAssets_SI-Animation-Spritesheet_33
+  - first:
+      213: -2319940907009175773
+    second: 2dAssets_SI-Animation-Spritesheet_34
+  - first:
+      213: 7756836000259346671
+    second: 2dAssets_SI-Animation-Spritesheet_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -770,6 +794,174 @@ TextureImporter:
       bones: []
       spriteID: 54b6ed98cc235f700800000000000000
       internalID: 573420381627378501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 3203
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dffdee29b175ee0800000000000000
+      internalID: -1272518051822043828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 3197
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8551bc327f04f5570800000000000000
+      internalID: 8457550055426692440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 3214
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee69f01432cbb210800000000000000
+      internalID: 1349886042206465765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2996
+        width: 99
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004658f8cc2b25ca0800000000000000
+      internalID: -6029560359444716544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 2996
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42af96d6491b4c610800000000000000
+      internalID: 1640631415318641188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 3003
+        width: 112
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69759b8ee23126c30800000000000000
+      internalID: 4351061282187204502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 3199
+        width: 95
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f02d1690aedcfd0800000000000000
+      internalID: -2319940907009175773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 2329
+        width: 579
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe09b68ae31d5ab60800000000000000
+      internalID: 7756836000259346671
       vertices: []
       indices: 
       edges: []
