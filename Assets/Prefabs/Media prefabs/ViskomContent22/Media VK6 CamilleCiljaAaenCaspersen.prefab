@@ -38,6 +38,10 @@ PrefabInstance:
         det kommer nok en dag.\r\nHvis jeg lyder som noget for dig, s\xE5 skriv p\xE5
         26373755 :*"
       objectReference: {fileID: 0}
+    - target: {fileID: 5285966418545072514, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.78
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966418736618096, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_IsActive
       value: 0

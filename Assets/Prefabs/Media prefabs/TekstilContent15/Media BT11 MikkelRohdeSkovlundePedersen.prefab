@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Mikkel Rohde
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781944263676356, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.69
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781944283637121, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_text
       value: "Historier om fortiden - produkter til fremtiden. Mit arbejde fungerer
@@ -109,6 +113,14 @@ PrefabInstance:
         research, kunstnerisk fortolkning, regels\xE6t og dogmer. Behovet f\xF8rst
         - egoet dern\xE6st. "
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781945513216707, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -120,6 +132,10 @@ PrefabInstance:
     - target: {fileID: 4264781945537698948, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_text
       value: https://www.instagram.com/mikkelrohde_/
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945543518824, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.79
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: artifactUrl

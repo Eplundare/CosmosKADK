@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Ehab Liljeblad
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781944263676356, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781944711723745, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -93,6 +97,10 @@ PrefabInstance:
         och socialt j\xE4mlikt samh\xE4lle. Hur jag v\xE4ljer att tackla problemen
         p\xE5 ett kreativt s\xE4tt \xE5terst\xE5r att se, men min design kommer att
         efterstr\xE4va dessa f\xF6r\xE4ndringar.\n\r\n "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.4
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945513216707, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh

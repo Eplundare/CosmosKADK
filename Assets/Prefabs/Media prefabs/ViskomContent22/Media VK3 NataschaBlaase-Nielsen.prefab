@@ -47,6 +47,10 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 10.720243
       objectReference: {fileID: 0}
+    - target: {fileID: 5285966418575453636, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: isVertical
       value: 1
@@ -127,6 +131,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Jeg har ikke en niche endnu, men jeg har til geng\xE6ld charme, god
         musiksmag, humor og p\xE6nt h\xE5r :)\n\r\n "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966420400621166, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.52
       objectReference: {fileID: 0}
     - target: {fileID: 5881637430451761893, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_Mesh

@@ -35,6 +35,10 @@ PrefabInstance:
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=wjRy-Z9iAKg
       objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958104, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.46
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: Simon Winther Mogensen

@@ -27,6 +27,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Frederik Bruun Refer
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439112649696205, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.18
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: artifactUrl
       value: https://youtu.be/y9mxCqEOM-Q
@@ -47,6 +51,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439113669449824, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114135934415, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_text
       value: 
@@ -60,6 +68,14 @@ PrefabInstance:
         noget for en anden samtale. Det er det som er grobunden for kultur - et f\xE6lles
         oplevelsesregister, et f\xE6lles udgangspunkt. Det er min vision at bidrage
         til det."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.17
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder
