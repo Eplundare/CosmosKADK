@@ -55,9 +55,22 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 10.704606
       objectReference: {fileID: 0}
-    - target: {fileID: 4264781944711723745, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+    - target: {fileID: 4264781944283637121, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: "Jeg er fascineret i gr\xE6nsen mellem det virkelige og det fiktive.
+        Jeg vil som designer fors\xF8ge at skabe et univers og en fort\xE6lling hvor
+        man kan flygte fra den virkelige hverdag ind i en mere dr\xF8mmende verden.
+        For tiden er jeg is\xE6r optaget af bekl\xE6dning og tekstil i forhold til
+        hvordan man kan bruge det til at forme ens krop og identitet og bruge det
+        til at bryde normer og gr\xE6nser. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944441792112, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781944711723745, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4264781944801330481, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_RootOrder
@@ -142,7 +155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: isVertical
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: artifactUrl
@@ -155,6 +168,10 @@ PrefabInstance:
     - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=xTSpXyWIwog
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945838909094, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_text
+      value: Rosina Winding de Neergaard
       objectReference: {fileID: 0}
     - target: {fileID: 5600765618063498333, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh
