@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4833969199207313571, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4833969199207313581, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: m_Sprite
@@ -77,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4833969200999884946, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: studentName
-      value: StudentName
+      value: Signe Lund Jensen
       objectReference: {fileID: 0}
     - target: {fileID: 4833969200999884946, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: cardYtPlayer
@@ -85,11 +85,11 @@ PrefabInstance:
       objectReference: {fileID: 2174044536461421991}
     - target: {fileID: 4833969200999884946, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: cardYoutubeUrl
-      value: https://www.youtube.com/watch?v=9fUaNIROfQ8&feature=youtu.be&ab_channel=luq
+      value: https://www.youtube.com/watch?fbclid=IwAR0u1ZFpaOQe3mYR5EBBAmw9K10ZKyBjBhaLj9PWi_e7Fgboczbya2h5XzY&v=SGNB88FklsU&feature=youtu.be
       objectReference: {fileID: 0}
     - target: {fileID: 4833969200999884946, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: cardHasAnimation
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4833969200999884947, guid: 11c0c3d61dc390948b82d000d1ac78b9, type: 3}
       propertyPath: studInfo
@@ -193,11 +193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: youtubeUrl
-      value: https://www.youtube.com/watch?v=9fUaNIROfQ8&feature=youtu.be&ab_channel=luq
+      value: https://www.youtube.com/watch?fbclid=IwAR0u1ZFpaOQe3mYR5EBBAmw9K10ZKyBjBhaLj9PWi_e7Fgboczbya2h5XzY&v=SGNB88FklsU&feature=youtu.be
       objectReference: {fileID: 0}
     - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: autoPlayOnStart
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: showThumbnailBeforeVideoLoad
@@ -249,7 +249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3964101877501318740, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3966196109586984122, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: m_RootOrder
