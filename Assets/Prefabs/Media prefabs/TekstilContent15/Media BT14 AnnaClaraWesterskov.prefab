@@ -127,6 +127,10 @@ PrefabInstance:
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=dSlv0eM3oo0
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781945808569760, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: presentationIs4x3ShortRectangl
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781945838909094, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_text
       value: Anna Clara Westerskov

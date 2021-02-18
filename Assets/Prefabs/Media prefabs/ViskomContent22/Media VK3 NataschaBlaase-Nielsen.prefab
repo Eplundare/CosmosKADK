@@ -77,6 +77,10 @@ PrefabInstance:
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=zLKBW2Z2zrQ&list=UUGLA1wgVCPtbYCyBBVOHDYw&index=1
       objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: presentationIs1x1Square
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966419613797030, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_text
       value: Natascha Blaase-Nielsen
