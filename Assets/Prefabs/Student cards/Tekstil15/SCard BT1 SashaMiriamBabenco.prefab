@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: autoPlayOnStart
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3931923626282942798, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: showThumbnailBeforeVideoLoad

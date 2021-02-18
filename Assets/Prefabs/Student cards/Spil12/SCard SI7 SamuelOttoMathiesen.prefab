@@ -30,7 +30,7 @@ PrefabInstance:
     - target: {fileID: 3931774653511755538, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5974526928526078577, guid: 37db2ae7a0b83244e91882f7f51299a3, type: 3}
+      objectReference: {fileID: -4548028244660499266, guid: 1dd561887400fb74c8babc780b7333c9, type: 3}
     - target: {fileID: 3931774653511755538, guid: 403d1c1dfe6bb7e4b984d87118e94c37, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -270,6 +270,10 @@ PrefabInstance:
     - target: {fileID: 6188519892517938338, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_text
       value: Samuel Otto Mathiesen
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519892923841394, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6188519892923841404, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_Sprite
