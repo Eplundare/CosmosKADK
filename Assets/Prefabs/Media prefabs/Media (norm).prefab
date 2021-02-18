@@ -6668,6 +6668,7 @@ MonoBehaviour:
   studentName: StudentName
   isVertical: 0
   horizontalMediaYtPlayer: {fileID: 4105173507748367916}
+  horizontalVideoRenderArea: {fileID: 4142264108204700880}
   verticalMediaYtPlayer: {fileID: 4105173508955471837}
   presentationUrl: 
   artifactUrl: 
@@ -10624,6 +10625,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
+--- !u!4 &4142264108204700880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4894226762059796, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
+  m_PrefabInstance: {fileID: 4138003247405098180}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4135074544074875864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4389680714450716, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
+  m_PrefabInstance: {fileID: 4138003247405098180}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4105173507748367916 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114179375918869224, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
@@ -10635,11 +10646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7418089f4181645b5df8f90e317bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &4135074544074875864 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4389680714450716, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
-  m_PrefabInstance: {fileID: 4138003247405098180}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4138003247562402442
 PrefabInstance:
   m_ObjectHideFlags: 0
