@@ -274,10 +274,10 @@ TextureImporter:
       name: 2dAssets_SI-Animation-Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 562
-        height: 1043
+        x: 6
+        y: 56
+        width: 552
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +610,10 @@ TextureImporter:
       name: 2dAssets_SI-Animation-Spritesheet_20
       rect:
         serializedVersion: 2
-        x: 2853
-        y: 1163
-        width: 565
-        height: 1038
+        x: 2860
+        y: 1168
+        width: 551
+        height: 1023
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -715,10 +715,10 @@ TextureImporter:
       name: 2dAssets_SI-Animation-Spritesheet_25
       rect:
         serializedVersion: 2
-        x: 67
-        y: 2595
-        width: 428
-        height: 783
+        x: 75
+        y: 2602
+        width: 414
+        height: 768
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
