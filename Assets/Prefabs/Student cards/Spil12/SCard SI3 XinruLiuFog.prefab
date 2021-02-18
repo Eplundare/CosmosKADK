@@ -333,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
---- !u!114 &3399795765110331612
+--- !u!114 &2792698668426084601
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7715640186936208758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b14a7af13ad8ca478ed094ad0458bf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 48139c12f3a7ba343a2a4139fc3c5860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7745179010119808092
@@ -491,6 +491,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2764567969742769521, guid: 3f0bc47ebe05b3d459bff0d8b0f30644, type: 3}
+    - target: {fileID: 6188519892923841405, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519892923841405, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519892923841405, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 7204673977836338493, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_Mesh
       value: 
