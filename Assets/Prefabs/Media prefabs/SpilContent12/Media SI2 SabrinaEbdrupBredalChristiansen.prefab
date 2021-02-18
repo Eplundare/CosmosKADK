@@ -31,6 +31,14 @@ PrefabInstance:
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=uzm4awzDkww&feature=youtu.be
       objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958104, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958104, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: Sabrina Ebdrup Bredal Christiansen
@@ -98,6 +106,14 @@ PrefabInstance:
     - target: {fileID: 1832963275987917583, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390077, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390077, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.67
       objectReference: {fileID: 0}
     - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text

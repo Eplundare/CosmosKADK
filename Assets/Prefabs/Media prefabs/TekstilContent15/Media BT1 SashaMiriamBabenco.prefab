@@ -117,6 +117,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Sasha Miriam Babenco
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781945838909095, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.35
+      objectReference: {fileID: 0}
     - target: {fileID: 5600765618063498333, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_Mesh
       value: 

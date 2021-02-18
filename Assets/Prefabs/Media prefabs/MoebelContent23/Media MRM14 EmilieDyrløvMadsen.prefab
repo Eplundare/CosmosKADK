@@ -27,6 +27,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Emilie Dyrl\xF8v Madsen"
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439112649696205, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.12
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: artifactUrl
       value: https://www.youtube.com/watch?v=9Y0wcZU5n3k&feature=youtu.be
@@ -47,6 +51,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439113669449824, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114135934415, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_text
       value: 
@@ -59,6 +67,14 @@ PrefabInstance:
         \nVores verden indeholder kun de resurser vi er tildelt p\xE5 nuv\xE6rende
         tidspunkt,  \nlad os v\xE6rne om dem, og inddrage dem i vores designs! Lade
         resurserne f\xE5 et nyt look, en ny chance, et nyt liv!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.79
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder

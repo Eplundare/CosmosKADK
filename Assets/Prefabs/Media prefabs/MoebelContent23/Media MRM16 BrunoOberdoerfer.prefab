@@ -27,6 +27,18 @@ PrefabInstance:
       propertyPath: m_text
       value: Bruno Levin Oberdoerfer
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439112649696178, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_margin.z
+      value: 8.219605
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112649696205, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112649696205, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 9.27
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: artifactUrl
       value: https://youtu.be/breFzDFTuHo
@@ -47,6 +59,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439113669449825, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439113669449825, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.32
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114135934415, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_text
       value: https://www.instagram.com/brunolevinoberdoerfer/
@@ -61,6 +81,14 @@ PrefabInstance:
         mig n\xE4stan alltid i ett meditativt tillst\xE5nd som \xE4r h\xE4ftigt.\n\nSom
         designer vill jag utforska samspelet mellan kropp, form och material. \n\nBruno
         Levin Oberdoerfer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.81
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder

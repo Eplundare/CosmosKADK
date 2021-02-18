@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=jGpnzQh7cWg
       objectReference: {fileID: 0}
+    - target: {fileID: 1832963274573958104, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.32
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963274573958105, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: Xinru Liu Fog
@@ -46,6 +50,10 @@ PrefabInstance:
     - target: {fileID: 1832963274916493244, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963274931764708, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 1832963275542329421, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_Name
@@ -98,6 +106,10 @@ PrefabInstance:
     - target: {fileID: 1832963275987917583, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390077, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
