@@ -74,6 +74,18 @@ TextureImporter:
   - first:
       213: 5941211574319044028
     second: Crystal_ball_spritesheet_28
+  - first:
+      213: -5329018170349632159
+    second: Crystal_ball_spritesheet_1
+  - first:
+      213: 7471927227741718255
+    second: Crystal_ball_spritesheet_2
+  - first:
+      213: 6365960044500582415
+    second: Crystal_ball_spritesheet_3
+  - first:
+      213: 4173435909624868982
+    second: Crystal_ball_spritesheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -485,6 +497,90 @@ TextureImporter:
       bones: []
       spriteID: cb5d9bee27c637250800000000000000
       internalID: 5941211574319044028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 872
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16545ba55368b06b0800000000000000
+      internalID: -5329018170349632159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 783
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe64d15c93e91b760800000000000000
+      internalID: 7471927227741718255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 723
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0089c2aeee685850800000000000000
+      internalID: 6365960044500582415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_ball_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 923
+        width: 217
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670bc0619d50be930800000000000000
+      internalID: 4173435909624868982
       vertices: []
       indices: 
       edges: []
