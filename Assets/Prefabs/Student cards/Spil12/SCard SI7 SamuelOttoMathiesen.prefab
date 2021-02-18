@@ -11,6 +11,18 @@ PrefabInstance:
       propertyPath: m_text
       value: Spil & Interaktion
       objectReference: {fileID: 0}
+    - target: {fileID: 6188519891495117635, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: studentName
+      value: Samuel Otto Mathiesen
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519891495117635, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: cardYoutubeUrl
+      value: https://www.youtube.com/watch?v=3eGfRN-QqZE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188519891495117635, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
+      propertyPath: cardHasAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6188519891584446681, guid: eb8e717313e075842bbfe7bfb125f996, type: 3}
       propertyPath: m_text
       value: Seven of Cups
