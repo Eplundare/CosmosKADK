@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: presentationUrl
       value: https://www.youtube.com/watch?v=0oA0ylYyD9U
       objectReference: {fileID: 0}
+    - target: {fileID: 1832963274535090399, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: presentationIs21x9LongRectangl
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963274573958104, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1.4
