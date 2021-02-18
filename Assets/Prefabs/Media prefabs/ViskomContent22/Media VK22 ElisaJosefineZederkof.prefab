@@ -51,6 +51,10 @@ PrefabInstance:
       propertyPath: presentationUrl
       value: https://youtu.be/7xH4xDWkG_U
       objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: presentationIs4x3ShortRectangl
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966419613797030, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_text
       value: Elisa Josefine Zederkof
