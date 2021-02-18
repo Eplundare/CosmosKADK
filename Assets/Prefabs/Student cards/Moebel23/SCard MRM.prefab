@@ -266,8 +266,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Character
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: de86f811fdac74e4e998c52555b3e9b7, type: 2}
-  m_sharedMaterial: {fileID: -206171135545717970, guid: de86f811fdac74e4e998c52555b3e9b7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 68fb44fa5852e7b449cfb2abad95bdea, type: 2}
+  m_sharedMaterial: {fileID: 2012039980770855241, guid: 68fb44fa5852e7b449cfb2abad95bdea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -379,11 +379,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   studentName: AlexisLozano
   illustration: {fileID: 8221041061511093888}
-  presentationUrl: 
-  presYtPlayer: {fileID: 0}
-  artifactUrl: 
-  artifYtPlayer: {fileID: 0}
-  description: {fileID: 0}
+  cardHasAnimation: 0
+  cardYtPlayer: {fileID: 0}
+  cardYoutubeUrl: 
 --- !u!114 &8221041060758701744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,7 +394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1acc35fef30936544b986cff49b3eebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  studentObj: {fileID: 8221041060758701745}
+  studInfo: {fileID: 0}
+  studMedia: {fileID: 0}
 --- !u!1 &8221041060953590164
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,8 +463,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Department
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: de86f811fdac74e4e998c52555b3e9b7, type: 2}
-  m_sharedMaterial: {fileID: -206171135545717970, guid: de86f811fdac74e4e998c52555b3e9b7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 68fb44fa5852e7b449cfb2abad95bdea, type: 2}
+  m_sharedMaterial: {fileID: 2012039980770855241, guid: 68fb44fa5852e7b449cfb2abad95bdea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -776,8 +775,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Alexis Emmanuel Lozano Angulo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: de86f811fdac74e4e998c52555b3e9b7, type: 2}
-  m_sharedMaterial: {fileID: -206171135545717970, guid: de86f811fdac74e4e998c52555b3e9b7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 68fb44fa5852e7b449cfb2abad95bdea, type: 2}
+  m_sharedMaterial: {fileID: 2012039980770855241, guid: 68fb44fa5852e7b449cfb2abad95bdea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
