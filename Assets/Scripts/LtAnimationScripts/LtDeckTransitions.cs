@@ -205,17 +205,17 @@ public class LtDeckTransitions : MonoBehaviour
         pos2 = new Vector3(trans2.localPosition.x, trans2.localPosition.y, trans2.localPosition.z);
         rot2 = new Vector3(trans2.localEulerAngles.x, trans2.localEulerAngles.y, trans2.localEulerAngles.z);
 
-        viskomPos1 = new Vector3(viskomTrans1.localPosition.x, viskomTrans1.localPosition.y, viskomTrans1.localPosition.z);
-        viskomRot1 = new Vector3(viskomTrans1.localEulerAngles.x, viskomTrans1.localEulerAngles.y, viskomTrans1.localEulerAngles.z);
+        //viskomPos1 = new Vector3(viskomTrans1.localPosition.x, viskomTrans1.localPosition.y, viskomTrans1.localPosition.z);
+        //viskomRot1 = new Vector3(viskomTrans1.localEulerAngles.x, viskomTrans1.localEulerAngles.y, viskomTrans1.localEulerAngles.z);
 
-        fashionPos1 = new Vector3(fashionTrans1.localPosition.x, fashionTrans1.localPosition.y, fashionTrans1.localPosition.z);
-        fashionRot1 = new Vector3(fashionTrans1.localEulerAngles.x, fashionTrans1.localEulerAngles.y, fashionTrans1.localEulerAngles.z);
+        //fashionPos1 = new Vector3(fashionTrans1.localPosition.x, fashionTrans1.localPosition.y, fashionTrans1.localPosition.z);
+        //fashionRot1 = new Vector3(fashionTrans1.localEulerAngles.x, fashionTrans1.localEulerAngles.y, fashionTrans1.localEulerAngles.z);
 
-        gamePos1 = new Vector3(gameTrans1.localPosition.x, gameTrans1.localPosition.y, gameTrans1.localPosition.z);
-        gameRot1 = new Vector3(gameTrans1.localEulerAngles.x, gameTrans1.localEulerAngles.y, gameTrans1.localEulerAngles.z);
+        //gamePos1 = new Vector3(gameTrans1.localPosition.x, gameTrans1.localPosition.y, gameTrans1.localPosition.z);
+        //gameRot1 = new Vector3(gameTrans1.localEulerAngles.x, gameTrans1.localEulerAngles.y, gameTrans1.localEulerAngles.z);
 
-        rumPos1 = new Vector3(rumTrans1.localPosition.x, rumTrans1.localPosition.y, rumTrans1.localPosition.z);
-        rumRot1 = new Vector3(rumTrans1.localEulerAngles.x, rumTrans1.localEulerAngles.y, rumTrans1.localEulerAngles.z);
+        //rumPos1 = new Vector3(rumTrans1.localPosition.x, rumTrans1.localPosition.y, rumTrans1.localPosition.z);
+        //rumRot1 = new Vector3(rumTrans1.localEulerAngles.x, rumTrans1.localEulerAngles.y, rumTrans1.localEulerAngles.z);
 
         LeanTween.rotateLocal(deck, rot0, 0f);
         LeanTween.moveLocal(deck, pos0, 0f);
@@ -238,17 +238,17 @@ public class LtDeckTransitions : MonoBehaviour
         LeanTween.rotateLocal(deck, rot2, timeAnim2).setEase(animCurve);
         LeanTween.moveLocal(deck, pos2, timeAnim2).setEase(animCurve);
 
-        LeanTween.rotateLocal(viskomDeck, viskomRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
-        LeanTween.moveLocal(viskomDeck, viskomPos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.rotateLocal(viskomDeck, viskomRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.moveLocal(viskomDeck, viskomPos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
 
-        LeanTween.rotateLocal(fashionDeck, fashionRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
-        LeanTween.moveLocal(fashionDeck, fashionPos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.rotateLocal(fashionDeck, fashionRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.moveLocal(fashionDeck, fashionPos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
 
-        LeanTween.rotateLocal(gameDeck, gameRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
-        LeanTween.moveLocal(gameDeck, gamePos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.rotateLocal(gameDeck, gameRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.moveLocal(gameDeck, gamePos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
 
-        LeanTween.rotateLocal(rumDeck, rumRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
-        LeanTween.moveLocal(rumDeck, rumPos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.rotateLocal(rumDeck, rumRot1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
+        //LeanTween.moveLocal(rumDeck, rumPos1, timeAnim3UnivTransit).setDelay(delayTidUniverseTransit).setEase(animCurve);
     }
 
     //public void ZSwipeOut()
