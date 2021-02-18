@@ -1,12 +1,96 @@
 fileFormatVersion: 2
 guid: 3f0bc47ebe05b3d459bff0d8b0f30644
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7597031870827749972
+    second: 2dAssets_SI-Animation-Spritesheet_0
+  - first:
+      213: 8114730714084307091
+    second: 2dAssets_SI-Animation-Spritesheet_1
+  - first:
+      213: 6146931587944687209
+    second: 2dAssets_SI-Animation-Spritesheet_2
+  - first:
+      213: 6093308962565442511
+    second: 2dAssets_SI-Animation-Spritesheet_3
+  - first:
+      213: 5466118648176980749
+    second: 2dAssets_SI-Animation-Spritesheet_4
+  - first:
+      213: -5230455679019732287
+    second: 2dAssets_SI-Animation-Spritesheet_5
+  - first:
+      213: 235582304010627427
+    second: 2dAssets_SI-Animation-Spritesheet_6
+  - first:
+      213: 9158347915853062503
+    second: 2dAssets_SI-Animation-Spritesheet_7
+  - first:
+      213: 4712453115247603093
+    second: 2dAssets_SI-Animation-Spritesheet_8
+  - first:
+      213: -4872786490491995717
+    second: 2dAssets_SI-Animation-Spritesheet_9
+  - first:
+      213: -92691103225570212
+    second: 2dAssets_SI-Animation-Spritesheet_10
+  - first:
+      213: -5704557262028650870
+    second: 2dAssets_SI-Animation-Spritesheet_11
+  - first:
+      213: -332265326184256130
+    second: 2dAssets_SI-Animation-Spritesheet_12
+  - first:
+      213: 8393952571320407667
+    second: 2dAssets_SI-Animation-Spritesheet_13
+  - first:
+      213: -4551278778620061803
+    second: 2dAssets_SI-Animation-Spritesheet_14
+  - first:
+      213: -1751866984004540641
+    second: 2dAssets_SI-Animation-Spritesheet_15
+  - first:
+      213: 7729618781873547587
+    second: 2dAssets_SI-Animation-Spritesheet_16
+  - first:
+      213: -2817954065609781494
+    second: 2dAssets_SI-Animation-Spritesheet_17
+  - first:
+      213: 3631271923384057806
+    second: 2dAssets_SI-Animation-Spritesheet_18
+  - first:
+      213: -7429842809194716655
+    second: 2dAssets_SI-Animation-Spritesheet_19
+  - first:
+      213: 1280129269328018551
+    second: 2dAssets_SI-Animation-Spritesheet_20
+  - first:
+      213: -1645731218152948757
+    second: 2dAssets_SI-Animation-Spritesheet_21
+  - first:
+      213: 1440875373903040012
+    second: 2dAssets_SI-Animation-Spritesheet_22
+  - first:
+      213: 796877482484722781
+    second: 2dAssets_SI-Animation-Spritesheet_23
+  - first:
+      213: -6132050549311250258
+    second: 2dAssets_SI-Animation-Spritesheet_24
+  - first:
+      213: -2764567969742769521
+    second: 2dAssets_SI-Animation-Spritesheet_25
+  - first:
+      213: 1344560003738852889
+    second: 2dAssets_SI-Animation-Spritesheet_26
+  - first:
+      213: 573420381627378501
+    second: 2dAssets_SI-Animation-Spritesheet_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +119,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +134,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
-  spriteTessellationDetail: -1
-  textureType: 0
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,13 +159,645 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1386
+        width: 564
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad9df7a3cbe19690800000000000000
+      internalID: -7597031870827749972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1386
+        width: 558
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39072fc37905d9070800000000000000
+      internalID: 8114730714084307091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1389
+        width: 567
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966221e16b94e4550800000000000000
+      internalID: 6146931587944687209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1391
+        width: 552
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbca6cb738cf8450800000000000000
+      internalID: 6093308962565442511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 562
+        height: 1043
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d033ab423fd8bdb40800000000000000
+      internalID: 5466118648176980749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 51
+        width: 568
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2ba96a540b967b0800000000000000
+      internalID: -5230455679019732287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 51
+        width: 568
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369ebe97bd4f44300800000000000000
+      internalID: 235582304010627427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 91
+        width: 340
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7616cdd08ecf81f70800000000000000
+      internalID: 9158347915853062503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 474
+        width: 298
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d2403042ff56140800000000000000
+      internalID: 4712453115247603093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 760
+        width: 353
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9f6e70182606cb0800000000000000
+      internalID: -4872786490491995717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 64
+        width: 544
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c9666cee1b6bef0800000000000000
+      internalID: -92691103225570212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 45
+        width: 565
+        height: 1043
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8648ebe46755d0b0800000000000000
+      internalID: -5704557262028650870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1162
+        width: 152
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dab9d327e836bf0800000000000000
+      internalID: -332265326184256130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1175
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376970bf36f4d7470800000000000000
+      internalID: 8393952571320407667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1177
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d396801c96d0c0800000000000000
+      internalID: -4551278778620061803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 1173
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17aca4824e10b7e0800000000000000
+      internalID: -1751866984004540641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1170
+        width: 96
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349a2ce245f154b60800000000000000
+      internalID: 7729618781873547587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1175
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f06fd15bd94e8d0800000000000000
+      internalID: -2817954065609781494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 1191
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecff724339ed46230800000000000000
+      internalID: 3631271923384057806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1185
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11265fc7455e3e890800000000000000
+      internalID: -7429842809194716655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 1163
+        width: 565
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c70ecb9cee3c110800000000000000
+      internalID: 1280129269328018551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1329
+        width: 185
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebf8323d203929e0800000000000000
+      internalID: -1645731218152948757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 2647
+        width: 421
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e491bb4840ff310800000000000000
+      internalID: 1440875373903040012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2693
+        width: 286
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c620929d31f0b00800000000000000
+      internalID: 796877482484722781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2685
+        width: 195
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0609fa38496eaa0800000000000000
+      internalID: -6132050549311250258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2595
+        width: 428
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f823f0e241842a9d0800000000000000
+      internalID: -2764567969742769521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2941
+        width: 338
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e5d0a1336d8a210800000000000000
+      internalID: 1344560003738852889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dAssets_SI-Animation-Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2943
+        width: 447
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b6ed98cc235f700800000000000000
+      internalID: 573420381627378501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 134.5, y: -335.5}
+      - {x: 134.5, y: 709.5}
+      - {x: 686.5, y: 709.5}
+      - {x: 700.5, y: -335.5}
+    - - {x: -449.5, y: -344.5}
+      - {x: -449.5, y: 714.5}
+      - {x: 125.5, y: 714.5}
+      - {x: 125.5, y: -344.5}
+    - - {x: -1033.5, y: -339.5}
+      - {x: -1033.5, y: 718.5}
+      - {x: -463.5, y: 718.5}
+      - {x: -463.5, y: -339.5}
+    - - {x: -1711.5, y: -322.5}
+      - {x: -1711.5, y: 718.5}
+      - {x: -1154.5, y: 718.5}
+      - {x: -1154.5, y: -322.5}
+    - - {x: -1711.5, y: -1661.5}
+      - {x: -1711.5, y: -630.5}
+      - {x: -1148.5, y: -630.5}
+      - {x: -1148.5, y: -1661.5}
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
