@@ -39,6 +39,10 @@ PrefabInstance:
         i min teknik \xE4r just mina linjer, vilka jag i projektet f\xF6rdjupat mig
         i och granskat. Vad ber\xE4ttar dom?"
       objectReference: {fileID: 0}
+    - target: {fileID: 5285966418736618096, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: artifactUrl
       value: https://www.youtube.com/watch?v=u0aYHUN1IgU&feature=youtu.be&ab_channel=NourHavemose

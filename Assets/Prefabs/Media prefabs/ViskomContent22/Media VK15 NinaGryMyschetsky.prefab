@@ -38,6 +38,10 @@ PrefabInstance:
         sj\xE6l med store dr\xF8mme? \r\nDet er nok aldrig s\xE5dan jeg ville formulere
         det selv, men jeg kan se det virker for andre, s\xE5 nu pr\xF8ver vi:)\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5285966418736618096, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: artifactUrl
       value: https://www.youtube.com/watch?v=p_e_G54AJH4&feature=youtu.be

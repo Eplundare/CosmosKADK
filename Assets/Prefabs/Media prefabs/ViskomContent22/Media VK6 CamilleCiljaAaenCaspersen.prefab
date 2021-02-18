@@ -25,7 +25,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4889519992711987912, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5097687917983871249, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_Mesh
@@ -38,6 +38,10 @@ PrefabInstance:
         det kommer nok en dag.\r\nHvis jeg lyder som noget for dig, s\xE5 skriv p\xE5
         26373755 :*"
       objectReference: {fileID: 0}
+    - target: {fileID: 5285966418736618096, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: artifactUrl
       value: https://www.youtube.com/watch?v=asFBqeUFWF8
@@ -45,6 +49,10 @@ PrefabInstance:
     - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: studentName
       value: Camille Cilja Aaen Caspersen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5285966419583318432, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
+      propertyPath: presentationUrl
+      value: https://www.youtube.com/watch?v=EwPYJvAhUkU&ab_channel=Camille
       objectReference: {fileID: 0}
     - target: {fileID: 5285966419613797030, guid: 4a8216d89e9b7d04b9f7f78eef44831e, type: 3}
       propertyPath: m_text
