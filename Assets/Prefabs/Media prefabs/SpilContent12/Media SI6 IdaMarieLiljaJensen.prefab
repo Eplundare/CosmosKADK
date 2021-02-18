@@ -91,6 +91,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1832963275987917583, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: "Jeg str\xE6ber efter at skabe universer hvor man mister sig selv. Hvor
