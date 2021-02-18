@@ -94,31 +94,31 @@ public class LtBgAnimationManager : MonoBehaviour
 
     public void RotateNightToOrigin()
     {
-        LeanTween.rotateLocal(nightObj, rotNight0, timeBg).setDelay(delayNights).setEase(animCurve);
+        LeanTween.rotateLocal(nightObj, rotNight0, timeNights).setDelay(delayNights).setEase(animCurve);
 
     }
 
     public void RotateNightToDep1()
     {
-        LeanTween.rotateLocal(nightObj, rotNight1, timeBg).setDelay(delayNights).setEase(animCurve);
+        LeanTween.rotateLocal(nightObj, rotNight1, timeNights).setDelay(delayNights).setEase(animCurve);
 
     }
 
     public void RotateNightToDep2()
     {
-        LeanTween.rotateLocal(nightObj, rotNight2, timeBg).setDelay(delayNights).setEase(animCurve);
+        LeanTween.rotateLocal(nightObj, rotNight2, timeNights).setDelay(delayNights).setEase(animCurve);
 
     }
 
     public void RotateNightToDep3()
     {
-        LeanTween.rotateLocal(nightObj, rotNight3, timeBg).setDelay(delayNights).setEase(animCurve);
+        LeanTween.rotateLocal(nightObj, rotNight3, timeNights).setDelay(delayNights).setEase(animCurve);
 
     }
 
     public void RotateNightToDep4()
     {
-        LeanTween.rotateLocal(nightObj, rotNight4, timeBg).setDelay(delayNights).setEase(animCurve);
+        LeanTween.rotateLocal(nightObj, rotNight4, timeNights).setDelay(delayNights).setEase(animCurve);
 
     }
 }

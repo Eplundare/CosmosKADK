@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class NewCameraManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject vCamStart;
+    //public GameObject vCam1;
     void Start()
     {
-        
+        vCamStart.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
