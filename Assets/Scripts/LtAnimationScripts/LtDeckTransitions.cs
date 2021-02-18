@@ -224,13 +224,13 @@ public class LtDeckTransitions : MonoBehaviour
 
     }
 
-    public void Update()
-    {
-        if (Input.GetKeyDown("1"))
-        {
-            TransitDepartments();
-        }
-    }
+    //public void Update()
+    //{
+    //    if (Input.GetKeyDown("1"))
+    //    {
+    //        TransitDepartments();
+    //    }
+    //}
 
     public void TransitDepartments()
     {
