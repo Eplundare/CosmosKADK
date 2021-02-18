@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Anya Belitskaya
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781944263676356, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.54
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781944711723745, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -95,6 +99,10 @@ PrefabInstance:
         som en kunstform, der er i stand til at kommentere, adressere problemer og
         p\xE5virke mennesker i en bedre retning. Jeg er nysgerrig p\xE5 hvordan dette
         kan g\xF8res ved brug af referencer og symbolik.\n\r\n "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.62
       objectReference: {fileID: 0}
     - target: {fileID: 4264781945048414830, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_AnchoredPosition.y

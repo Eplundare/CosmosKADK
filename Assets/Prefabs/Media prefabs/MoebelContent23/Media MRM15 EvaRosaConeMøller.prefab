@@ -47,6 +47,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439113669449824, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114135934415, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_text
       value: 
@@ -59,6 +63,10 @@ PrefabInstance:
         noget i os, at lege med sanserne, at konstruerer f\xF8lelser.  \n\nDet er
         det jeg vil unders\xF8ge som designer, og det jeg vil str\xE6be efter at
         skabe. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.23
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder

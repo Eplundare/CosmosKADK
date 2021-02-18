@@ -27,6 +27,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Maria Hovdreng Bull
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439112649696205, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.12
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439113385064361, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: isVertical
       value: 1
@@ -51,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439113669449824, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439114135934415, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_text
       value: 
@@ -67,6 +75,14 @@ PrefabInstance:
     - target: {fileID: 2076439114147448932, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_fontStyle
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439114147448935, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.24
       objectReference: {fileID: 0}
     - target: {fileID: 2076439114256906040, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_RootOrder

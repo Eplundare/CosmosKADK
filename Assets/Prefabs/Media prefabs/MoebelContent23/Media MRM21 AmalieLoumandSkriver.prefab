@@ -34,6 +34,14 @@ PrefabInstance:
         og kontekst spiller en stor rolle i min verden, og er afg\xF8rende for, hvordan
         man oplever et m\xF8bel eller et rummeligt element."
       objectReference: {fileID: 0}
+    - target: {fileID: 2076439112644482955, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076439112644482955, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.62
+      objectReference: {fileID: 0}
     - target: {fileID: 2076439113356690607, guid: 71cc1008eb0fa154882c3af5bc9d0b3b, type: 3}
       propertyPath: m_text
       value: Amalie Loumand Skriver

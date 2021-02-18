@@ -51,6 +51,10 @@ PrefabInstance:
         nutiden og fremtiden uden at sygne hen, m\xE5 vi g\xF8re det med humor -
         hvor forceret og tragikomisk resultatet end m\xE5 blive.\n\r\n "
       objectReference: {fileID: 0}
+    - target: {fileID: 4264781944283637122, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.65
+      objectReference: {fileID: 0}
     - target: {fileID: 4264781944441792112, guid: 21a59dd131293a8489f89d97e07a3fee, type: 3}
       propertyPath: m_IsActive
       value: 0

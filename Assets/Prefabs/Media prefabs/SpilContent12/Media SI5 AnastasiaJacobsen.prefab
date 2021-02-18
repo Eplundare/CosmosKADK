@@ -99,6 +99,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390077, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832963276077390077, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 1832963276077390078, guid: c1df87964ec6afb47ae6887e78550e53, type: 3}
       propertyPath: m_text
       value: "Min tilgang til design er leg og l\xE6ring gennem h\xE5rd arbejde.
