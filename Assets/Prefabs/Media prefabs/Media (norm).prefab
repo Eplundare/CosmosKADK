@@ -3715,7 +3715,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4138003247483422418}
   - component: {fileID: 4138003247483422417}
-  - component: {fileID: 4138003247483422416}
   m_Layer: 0
   m_Name: VideoAndDescription Animator
   m_TagString: Untagged
@@ -3750,55 +3749,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VideoOrDescription: Presentation
+  vidPlayerManager: {fileID: 4138003248167390804}
+  cardVidManager: {fileID: 0}
   contentPrnt: {fileID: 4138003248404070186}
   pos0: {fileID: 4138003247888912851}
   pos1: {fileID: 4138003248250247921}
   v0: {x: 0, y: 0, z: 0}
   v1: {x: 0, y: 0, z: 0}
-  timeAnim: 1
-  delayTid: 0
-  animCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &4138003247483422416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4138003247483422431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 640c277886b32d246b0c096288ed470c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  VideoOrDescription: Description
-  contentPrnt: {fileID: 4138003248843615724}
-  pos0: {fileID: 4138003247776463999}
-  pos1: {fileID: 4138003249325841695}
-  v0: {x: 0, y: 0, z: 0}
-  v1: {x: 0, y: 0, z: 0}
+  Description: 
+  descrContentPrnt: {fileID: 4138003248843615724}
+  descrPos0: {fileID: 4138003247776463999}
+  descrPos1: {fileID: 4138003249325841695}
+  descrV0: {x: 0, y: 0, z: 0}
+  descrV1: {x: 0, y: 0, z: 0}
   timeAnim: 1
   delayTid: 0
   animCurve:
@@ -6667,6 +6630,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   studentName: StudentName
   isVertical: 0
+  presentationIs1x1Square: 0
+  presentationIs4x3ShortRectangl: 0
+  presentationIs21x9LongRectangl: 0
   horizontalMediaYtPlayer: {fileID: 4105173507748367916}
   horizontalVideoRenderArea: {fileID: 4142264108204700880}
   verticalMediaYtPlayer: {fileID: 4105173508955471837}
@@ -10625,11 +10591,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
---- !u!4 &4142264108204700880 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4894226762059796, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
-  m_PrefabInstance: {fileID: 4138003247405098180}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4135074544074875864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4389680714450716, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
@@ -10646,6 +10607,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7418089f4181645b5df8f90e317bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &4142264108204700880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4894226762059796, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
+  m_PrefabInstance: {fileID: 4138003247405098180}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4138003247562402442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12447,11 +12413,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
---- !u!4 &4135074545014542889 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4389680714450716, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
-  m_PrefabInstance: {fileID: 4138003249149220149}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4105173508955471837 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114179375918869224, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
@@ -12463,6 +12424,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7418089f4181645b5df8f90e317bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &4135074545014542889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4389680714450716, guid: 5d410f561f4a06c4f93067d94dc545ce, type: 3}
+  m_PrefabInstance: {fileID: 4138003249149220149}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5496797418142406665
 PrefabInstance:
   m_ObjectHideFlags: 0
