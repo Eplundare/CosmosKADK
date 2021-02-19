@@ -214,6 +214,21 @@ public class LtDeckTransitions : MonoBehaviour
             vkcsPos1 = new Vector3[vkCards.Length];
             vkcfRot2 = new Vector3[vkCards.Length];
             vkcaPos3 = new Vector3[vkCards.Length];
+
+            btcoPos0 = new Vector3[btCards.Length];
+            btcsPos1 = new Vector3[btCards.Length];
+            btcfRot2 = new Vector3[btCards.Length];
+            btcaPos3 = new Vector3[btCards.Length];
+
+            sicoPos0 = new Vector3[siCards.Length];
+            sicsPos1 = new Vector3[siCards.Length];
+            sicfRot2 = new Vector3[siCards.Length];
+            sicaPos3 = new Vector3[siCards.Length];
+
+            mrmcoPos0 = new Vector3[mrmCards.Length];
+            mrmcsPos1 = new Vector3[mrmCards.Length];
+            mrmcfRot2 = new Vector3[mrmCards.Length];
+            mrmcaPos3 = new Vector3[mrmCards.Length];
         }
     }
 
@@ -456,6 +471,138 @@ public class LtDeckTransitions : MonoBehaviour
         }
     }
 
+    public void TransitToSpreadBt()
+    {
+        //    [Header("VK deck objects and transforms")]
+        //    public GameObject viskomDeck;
+        //public Transform vkOriginTrans0; // origin. chosen. RP
+        //public Transform vkDepsTrans1; // department separated. RP
+        //public Transform vkUnchosTrans2; // unchosen, flies away. P
+
+        //public GameObject[] vkCards;
+        //public Transform[] vkCardsOriginTrans0; // origin and chosen card. P
+        //public Transform[] vkCardsSpreadTrans1; // spread. P
+        //public Transform[] vkCardsFlipTrans2; // flip. R
+        //public Transform[] vkCardsAwayTrans3; // fly below. P
+        //public Transform vkCardWithMediaTrans4; // position to share screen with media. P
+
+        //// SET VK DECK AS SELECTED
+        //vkDeckIsSelected = true;
+        //btDeckIsSelected = false;
+
+
+        // THE DEP DECK IS CENTERED
+        LeanTween.rotateLocal(btDeck, btoRot0, timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(btDeck, btoPos0, timeAnim2).setEase(animCurve);
+
+        // OTHER DECKS MOVE AWAY
+        LeanTween.moveLocal(viskomDeck, vkuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(siDeck, siuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(mrmDeck, mrmuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+
+        // CHOSEN DECK STARTS TO SPREAD
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            LeanTween.moveLocal(btCards[i], btcsPos1[i], timeAnim2).setDelay(timeAnim2 * 1.5f).setEase(animCurve);
+
+        }
+
+        // VK CARDS FLIP
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            LeanTween.rotateLocal(btCards[i], btcfRot2[i], timeAnim2).setDelay(timeAnim2 + (timeAnim2 * 1.5f)).setEase(animCurve);
+
+        }
+    }
+
+    public void TransitToSpreadSi()
+    {
+        //    [Header("VK deck objects and transforms")]
+        //    public GameObject viskomDeck;
+        //public Transform vkOriginTrans0; // origin. chosen. RP
+        //public Transform vkDepsTrans1; // department separated. RP
+        //public Transform vkUnchosTrans2; // unchosen, flies away. P
+
+        //public GameObject[] vkCards;
+        //public Transform[] vkCardsOriginTrans0; // origin and chosen card. P
+        //public Transform[] vkCardsSpreadTrans1; // spread. P
+        //public Transform[] vkCardsFlipTrans2; // flip. R
+        //public Transform[] vkCardsAwayTrans3; // fly below. P
+        //public Transform vkCardWithMediaTrans4; // position to share screen with media. P
+
+        //// SET VK DECK AS SELECTED
+        //vkDeckIsSelected = true;
+        //btDeckIsSelected = false;
+
+
+        // THE DEP DECK IS CENTERED
+        LeanTween.rotateLocal(siDeck, sioRot0, timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(siDeck, sioPos0, timeAnim2).setEase(animCurve);
+
+        // OTHER DECKS MOVE AWAY
+        LeanTween.moveLocal(viskomDeck, vkuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(btDeck, btuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(mrmDeck, mrmuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+
+        // CHOSEN DECK STARTS TO SPREAD
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            LeanTween.moveLocal(siCards[i], sicsPos1[i], timeAnim2).setDelay(timeAnim2 * 1.5f).setEase(animCurve);
+
+        }
+
+        // VK CARDS FLIP
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            LeanTween.rotateLocal(siCards[i], sicfRot2[i], timeAnim2).setDelay(timeAnim2 + (timeAnim2 * 1.5f)).setEase(animCurve);
+
+        }
+    }
+
+    public void TransitToSpreadMrm()
+    {
+        //    [Header("VK deck objects and transforms")]
+        //    public GameObject viskomDeck;
+        //public Transform vkOriginTrans0; // origin. chosen. RP
+        //public Transform vkDepsTrans1; // department separated. RP
+        //public Transform vkUnchosTrans2; // unchosen, flies away. P
+
+        //public GameObject[] vkCards;
+        //public Transform[] vkCardsOriginTrans0; // origin and chosen card. P
+        //public Transform[] vkCardsSpreadTrans1; // spread. P
+        //public Transform[] vkCardsFlipTrans2; // flip. R
+        //public Transform[] vkCardsAwayTrans3; // fly below. P
+        //public Transform vkCardWithMediaTrans4; // position to share screen with media. P
+
+        //// SET VK DECK AS SELECTED
+        //vkDeckIsSelected = true;
+        //btDeckIsSelected = false;
+
+
+        // THE DEP DECK IS CENTERED
+        LeanTween.rotateLocal(siDeck, sioRot0, timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(siDeck, sioPos0, timeAnim2).setEase(animCurve);
+
+        // OTHER DECKS MOVE AWAY
+        LeanTween.moveLocal(viskomDeck, vkuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(btDeck, btuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(mrmDeck, mrmuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+
+        // CHOSEN DECK STARTS TO SPREAD
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            LeanTween.moveLocal(mrmCards[i], mrmcsPos1[i], timeAnim2).setDelay(timeAnim2 * 1.5f).setEase(animCurve);
+
+        }
+
+        // VK CARDS FLIP
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            LeanTween.rotateLocal(mrmCards[i], mrmcfRot2[i], timeAnim2).setDelay(timeAnim2 + (timeAnim2 * 1.5f)).setEase(animCurve);
+
+        }
+    }
+
     public void BackToSeparateDepsFromVk()
     {
         // VK CARDS FLIP BACK
@@ -476,6 +623,75 @@ public class LtDeckTransitions : MonoBehaviour
         // THE DEP DECK GOES BACK TO SEPARATED POSITION
         LeanTween.rotateLocal(viskomDeck, vkdRot1, timeAnim2).setDelay(timeAnim2*2f).setEase(animCurve);
         LeanTween.moveLocal(viskomDeck, vkdPos1, timeAnim2).setDelay(timeAnim2 * 2f).setEase(animCurve);
+
+    }
+
+    public void BackToSeparateDepsFromBt()
+    {
+        // VK CARDS FLIP BACK
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            LeanTween.rotateY(btCards[i], 0f, timeAnim2).setDelay(0f).setEase(animCurve);
+
+            // VK CARDS GATHER
+            LeanTween.moveLocal(btCards[i], btcoPos0[i], timeAnim2).setDelay(timeAnim2 /** 1.5f*/).setEase(animCurve);
+
+        }
+
+        // OTHER DECKS COME BACK
+        LeanTween.moveLocal(viskomDeck, vkdPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(siDeck, sidPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(mrmDeck, mrmdPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+
+        // THE DEP DECK GOES BACK TO SEPARATED POSITION
+        LeanTween.rotateLocal(btDeck, btdRot1, timeAnim2).setDelay(timeAnim2 * 2f).setEase(animCurve);
+        LeanTween.moveLocal(btDeck, btdPos1, timeAnim2).setDelay(timeAnim2 * 2f).setEase(animCurve);
+
+    }
+
+    public void BackToSeparateDepsFromSi()
+    {
+        // VK CARDS FLIP BACK
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            LeanTween.rotateY(siCards[i], 0f, timeAnim2).setDelay(0f).setEase(animCurve);
+
+            // VK CARDS GATHER
+            LeanTween.moveLocal(siCards[i], sicoPos0[i], timeAnim2).setDelay(timeAnim2 /** 1.5f*/).setEase(animCurve);
+
+        }
+
+        // OTHER DECKS COME BACK
+        LeanTween.moveLocal(viskomDeck, vkdPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(btDeck, btdPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(mrmDeck, mrmdPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+
+        // THE DEP DECK GOES BACK TO SEPARATED POSITION
+        LeanTween.rotateLocal(siDeck, sidRot1, timeAnim2).setDelay(timeAnim2 * 2f).setEase(animCurve);
+        LeanTween.moveLocal(siDeck, sidPos1, timeAnim2).setDelay(timeAnim2 * 2f).setEase(animCurve);
+
+    }
+
+    public void BackToSeparateDepsFromMrm()
+    {
+        // VK CARDS FLIP BACK
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            LeanTween.rotateY(mrmCards[i], 0f, timeAnim2).setDelay(0f).setEase(animCurve);
+
+            // VK CARDS GATHER
+            LeanTween.moveLocal(mrmCards[i], mrmcoPos0[i], timeAnim2).setDelay(timeAnim2 /** 1.5f*/).setEase(animCurve);
+
+        }
+
+        // OTHER DECKS COME BACK
+        LeanTween.moveLocal(viskomDeck, vkdPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(btDeck, btdPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(siDeck, sidPos1, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+
+        // THE DEP DECK GOES BACK TO SEPARATED POSITION
+        LeanTween.rotateLocal(mrmDeck, mrmdRot1, timeAnim2).setDelay(timeAnim2 * 2f).setEase(animCurve);
+        LeanTween.moveLocal(mrmDeck, mrmdPos1, timeAnim2).setDelay(timeAnim2 * 2f).setEase(animCurve);
 
     }
 
@@ -855,6 +1071,873 @@ public class LtDeckTransitions : MonoBehaviour
 
     }
 
+    public void TransitToBtCard0()
+    {
+        LeanTween.moveLocal(btCards[0], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 0) continue;
+            else if (i != 0)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard1()
+    {
+        LeanTween.moveLocal(btCards[1], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 1) continue;
+            else if (i != 1)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard2()
+    {
+        LeanTween.moveLocal(btCards[2], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 2) continue;
+            else if (i != 2)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard3()
+    {
+        LeanTween.moveLocal(btCards[3], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 3) continue;
+            else if (i != 3)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard4()
+    {
+        LeanTween.moveLocal(btCards[4], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 4) continue;
+            else if (i != 4)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard5()
+    {
+        LeanTween.moveLocal(btCards[5], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 5) continue;
+            else if (i != 5)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard6()
+    {
+        LeanTween.moveLocal(btCards[6], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 6) continue;
+            else if (i != 6)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard7()
+    {
+        LeanTween.moveLocal(btCards[7], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 7) continue;
+            else if (i != 7)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard8()
+    {
+        LeanTween.moveLocal(btCards[8], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 8) continue;
+            else if (i != 8)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard9()
+    {
+        LeanTween.moveLocal(btCards[9], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 9) continue;
+            else if (i != 9)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard10()
+    {
+        LeanTween.moveLocal(btCards[10], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 10) continue;
+            else if (i != 10)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard11()
+    {
+        LeanTween.moveLocal(btCards[11], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 11) continue;
+            else if (i != 11)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard12()
+    {
+        LeanTween.moveLocal(btCards[12], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 12) continue;
+            else if (i != 12)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard13()
+    {
+        LeanTween.moveLocal(btCards[13], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 13) continue;
+            else if (i != 13)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToBtCard14()
+    {
+        LeanTween.moveLocal(btCards[14], btcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            if (i == 14) continue;
+            else if (i != 14)
+            {
+                LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    //public void TransitToBtCard15()
+    //{
+    //    LeanTween.moveLocal(btCards[1], btcwmPos4, timeAnim2).setEase(animCurve);
+
+    //    for (int i = 0; i < btCards.Length; i++)
+    //    {
+    //        if (i == 15) continue;
+    //        else if (i != 15)
+    //        {
+    //            LeanTween.moveLocal(btCards[i], btcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+    //        }
+
+    //    }
+
+    //}
+
+    public void TransitToSiCard0()
+    {
+        LeanTween.moveLocal(siCards[0], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 0) continue;
+            else if (i != 0)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard1()
+    {
+        LeanTween.moveLocal(siCards[1], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 1) continue;
+            else if (i != 1)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard2()
+    {
+        LeanTween.moveLocal(siCards[2], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 2) continue;
+            else if (i != 2)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard3()
+    {
+        LeanTween.moveLocal(siCards[3], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 3) continue;
+            else if (i != 3)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard4()
+    {
+        LeanTween.moveLocal(siCards[4], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 4) continue;
+            else if (i != 4)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard5()
+    {
+        LeanTween.moveLocal(siCards[5], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 5) continue;
+            else if (i != 5)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard6()
+    {
+        LeanTween.moveLocal(siCards[6], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 6) continue;
+            else if (i != 6)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard7()
+    {
+        LeanTween.moveLocal(siCards[7], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 7) continue;
+            else if (i != 7)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard8()
+    {
+        LeanTween.moveLocal(siCards[8], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 8) continue;
+            else if (i != 8)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard9()
+    {
+        LeanTween.moveLocal(siCards[9], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 9) continue;
+            else if (i != 9)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard10()
+    {
+        LeanTween.moveLocal(siCards[10], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 10) continue;
+            else if (i != 10)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToSiCard11()
+    {
+        LeanTween.moveLocal(siCards[11], sicwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            if (i == 11) continue;
+            else if (i != 11)
+            {
+                LeanTween.moveLocal(siCards[i], sicaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard0()
+    {
+        LeanTween.moveLocal(mrmCards[0], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 0) continue;
+            else if (i != 0)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard1()
+    {
+        LeanTween.moveLocal(mrmCards[1], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 1) continue;
+            else if (i != 1)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard2()
+    {
+        LeanTween.moveLocal(mrmCards[2], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 2) continue;
+            else if (i != 2)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard3()
+    {
+        LeanTween.moveLocal(mrmCards[3], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 3) continue;
+            else if (i != 3)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard4()
+    {
+        LeanTween.moveLocal(mrmCards[4], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 4) continue;
+            else if (i != 4)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard5()
+    {
+        LeanTween.moveLocal(mrmCards[5], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 5) continue;
+            else if (i != 5)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard6()
+    {
+        LeanTween.moveLocal(mrmCards[6], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 6) continue;
+            else if (i != 6)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard7()
+    {
+        LeanTween.moveLocal(mrmCards[7], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 7) continue;
+            else if (i != 7)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard8()
+    {
+        LeanTween.moveLocal(mrmCards[8], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 8) continue;
+            else if (i != 8)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard9()
+    {
+        LeanTween.moveLocal(mrmCards[9], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 9) continue;
+            else if (i != 9)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard10()
+    {
+        LeanTween.moveLocal(mrmCards[10], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 10) continue;
+            else if (i != 10)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard11()
+    {
+        LeanTween.moveLocal(mrmCards[11], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 11) continue;
+            else if (i != 11)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard12()
+    {
+        LeanTween.moveLocal(mrmCards[12], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 12) continue;
+            else if (i != 12)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard13()
+    {
+        LeanTween.moveLocal(mrmCards[13], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 13) continue;
+            else if (i != 13)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard14()
+    {
+        LeanTween.moveLocal(mrmCards[14], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 14) continue;
+            else if (i != 14)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard15()
+    {
+        LeanTween.moveLocal(mrmCards[15], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 15) continue;
+            else if (i != 15)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard16()
+    {
+        LeanTween.moveLocal(mrmCards[16], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 16) continue;
+            else if (i != 16)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard17()
+    {
+        LeanTween.moveLocal(mrmCards[17], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 17) continue;
+            else if (i != 17)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard18()
+    {
+        LeanTween.moveLocal(mrmCards[18], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 18) continue;
+            else if (i != 18)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard19()
+    {
+        LeanTween.moveLocal(mrmCards[19], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 19) continue;
+            else if (i != 19)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard20()
+    {
+        LeanTween.moveLocal(mrmCards[20], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 20) continue;
+            else if (i != 20)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard21()
+    {
+        LeanTween.moveLocal(mrmCards[21], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 21) continue;
+            else if (i != 21)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void TransitToMrmCard22()
+    {
+        LeanTween.moveLocal(mrmCards[22], mrmcwmPos4, timeAnim2).setEase(animCurve);
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            if (i == 22) continue;
+            else if (i != 22)
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcaPos3[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
     public void BackVkCardsSpread()
     {
 
@@ -863,6 +1946,51 @@ public class LtDeckTransitions : MonoBehaviour
 
             {
                 LeanTween.moveLocal(vkCards[i], vkcsPos1[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void BackSiCardsSpread()
+    {
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+
+            {
+                LeanTween.moveLocal(siCards[i], sicsPos1[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void BackBtCardsSpread()
+    {
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+
+            {
+                LeanTween.moveLocal(btCards[i], btcsPos1[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
+
+            }
+
+        }
+
+    }
+
+    public void BackMrmCardsSpread()
+    {
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+
+            {
+                LeanTween.moveLocal(mrmCards[i], mrmcsPos1[i], timeAnim2 * 2f).setDelay(0f).setEase(animCurve);
 
             }
 

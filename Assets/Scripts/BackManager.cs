@@ -54,6 +54,53 @@ public class BackManager : MonoBehaviour
 
     }
 
+    public void TurnOnDepBackFBt() //WHEN YOU EXIT INDIVIDUAL CARDS.
+    {
+        homeBack.SetActive(false);
+
+        depBackfVk.SetActive(false);
+        depBackfBt.SetActive(true);
+        depBackfSi.SetActive(false);
+        depBackfMrm.SetActive(false);
+
+        vkBack.SetActive(false);
+        btBack.SetActive(false);
+        siBack.SetActive(false);
+        mrmBack.SetActive(false);
+
+    }
+
+    public void TurnOnDepBackFSi() //WHEN YOU EXIT INDIVIDUAL CARDS.
+    {
+        homeBack.SetActive(false);
+
+        depBackfVk.SetActive(false);
+        depBackfBt.SetActive(false);
+        depBackfSi.SetActive(true);
+        depBackfMrm.SetActive(false);
+
+        vkBack.SetActive(false);
+        btBack.SetActive(false);
+        siBack.SetActive(false);
+        mrmBack.SetActive(false);
+
+    }
+    public void TurnOnDepBackFMrm() //WHEN YOU EXIT INDIVIDUAL CARDS.
+    {
+        homeBack.SetActive(false);
+
+        depBackfVk.SetActive(false);
+        depBackfBt.SetActive(false);
+        depBackfSi.SetActive(false);
+        depBackfMrm.SetActive(true);
+
+        vkBack.SetActive(false);
+        btBack.SetActive(false);
+        siBack.SetActive(false);
+        mrmBack.SetActive(false);
+
+    }
+
     public void TurnOnBackVK()
     {
         homeBack.SetActive(false);
