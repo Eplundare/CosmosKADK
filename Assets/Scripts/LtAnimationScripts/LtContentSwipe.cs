@@ -8,7 +8,7 @@ public class LtContentSwipe : MonoBehaviour
     public VideoPlayerManager vidPlayerManager; // REMOVE?
 
     //public StudentInfo studInfo;
-    //public bool thereIsCardVid;
+    public bool thereIsCardVid;
     public VideoPlayerManager cardVidManager;
 
     [Space]
@@ -100,9 +100,13 @@ public class LtContentSwipe : MonoBehaviour
         vidPlayerManager.StopPresOrArtifact();
 
 
-        if (cardVidManager != null)
+        if (thereIsCardVid == true)
         {
             cardVidManager.StopCardVideo();
+        }
+        else if (thereIsCardVid == false)
+        {
+            Debug.Log("cardVidManager is empty, it's ok.");
         }
 
     }

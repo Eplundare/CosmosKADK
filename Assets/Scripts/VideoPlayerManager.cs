@@ -7,6 +7,8 @@ public class VideoPlayerManager : MonoBehaviour
     public StudentInfo studInfo;
     public StudentMedia studMedia;
 
+    public bool hasCardVideo;
+
     private bool nextVideoIsArtifact;
 
     private Vector3 presRendOriginalScale;
@@ -41,12 +43,28 @@ public class VideoPlayerManager : MonoBehaviour
 
     public void StartCardVideo()
     {
-        studInfo.cardYtPlayer.Play(studInfo.cardYoutubeUrl);
+        if (hasCardVideo == true)
+        {
+            studInfo.cardYtPlayer.Play(studInfo.cardYoutubeUrl);
+
+        }
+        else if (hasCardVideo == false)
+        {
+            Debug.Log("Has no StudInfo and that's ok.");
+        }
     }
 
     public void StopCardVideo()
     {
-        studInfo.cardYtPlayer.Stop();
+        if (hasCardVideo == true)
+        {
+            studInfo.cardYtPlayer.Stop();
+
+        }
+        else if (hasCardVideo == false)
+        {
+            Debug.Log("Has no StudInfo and that's ok.");
+        }
     }
 
     public void SloopCardVideo()
