@@ -10,6 +10,7 @@ public class DisableCardButtonOnClick : MonoBehaviour
 
     public bool enablesOtherButt;
     public Button otherButt;
+    public Image otherButtImage;
 
     // Start is called before the first frame update
     public void DisableButton()
@@ -22,6 +23,8 @@ public class DisableCardButtonOnClick : MonoBehaviour
             if (enablesOtherButt == true)
             {
                 otherButt.interactable = true;
+                otherButtImage.raycastTarget = true;
+
             }
         }
     }

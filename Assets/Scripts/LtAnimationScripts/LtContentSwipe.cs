@@ -5,6 +5,7 @@ using UnityEngine;
 public class LtContentSwipe : MonoBehaviour
 {
     public string VideoOrDescription;
+    public VideoPlayerManager vidPlayerManager; // REMOVE?
 
     [Space]
     [Header("Content PARENT and Position pivots here:")]
@@ -48,6 +49,10 @@ public class LtContentSwipe : MonoBehaviour
     public void ZSwipeIn()
     {
         LeanTween.move(contentPrnt, v1, timeAnim).setDelay(delayTid).setEase(animCurve);
+
+        //CardEventsManager.OnClicked += vidPlayerManager.StopCardVideo;
+        //CardEventsManager.OnClicked += vidPlayerManager.StopCardVideo;
+
     }
 
     public void ZSwipeOut()

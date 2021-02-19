@@ -43,4 +43,9 @@ public class CrystalBallTextManager : MonoBehaviour
         sogTxt.enabled = false;
     }
 
+    public void TurnOffTilbage()
+    {
+        tilbageTxt.enabled = false;
+    }
+
 }
