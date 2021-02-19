@@ -1198,7 +1198,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a0256d110ee373049bc2793c095fc3dd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.031
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1653,6 +1653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3221950737421234845}
+  - component: {fileID: 5992724686538148708}
   m_Layer: 0
   m_Name: MusicSfx Manager
   m_TagString: Untagged
@@ -1676,6 +1677,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992724686538148708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978430052773348643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdce794eb3e14324b88eb6b6266a37e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boom: {fileID: 6407677702324275670}
+  crystalBall: {fileID: 919998175283506693}
+  genericClick: {fileID: 3032877220836737052}
+  deal: {fileID: 7845800499182470908}
+  whoosh1: {fileID: 6568468196695531983}
+  whoosh2: {fileID: 1813162095583924276}
+  whoosh3: {fileID: 8796318090448467768}
+  whoosh4: {fileID: 4863657993347148298}
+  cardsVk: {fileID: 5596175708960940821}
+  cardsBt: {fileID: 2279429093635696386}
+  cardsSi: {fileID: 2464962369461215965}
+  cardsMrm: {fileID: 2251777255091918296}
 --- !u!1 &5666917705587612121
 GameObject:
   m_ObjectHideFlags: 0

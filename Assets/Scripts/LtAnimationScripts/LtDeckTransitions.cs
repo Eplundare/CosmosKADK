@@ -372,6 +372,108 @@ public class LtDeckTransitions : MonoBehaviour
 
         vkcwmPos4 = new Vector3(vkCardWithMediaTrans4.localPosition.x, vkCardWithMediaTrans4.localPosition.y, vkCardWithMediaTrans4.localPosition.z);
 
+        // BT
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            btcoPos0[i] = new Vector3(btCardsOriginTrans0[i].localPosition.x,
+                btCardsOriginTrans0[i].localPosition.y, btCardsOriginTrans0[i].localPosition.z);
+
+        }
+
+
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            btcsPos1[i] = new Vector3(btCardsSpreadTrans1[i].localPosition.x,
+                btCardsSpreadTrans1[i].localPosition.y, btCardsSpreadTrans1[i].localPosition.z);
+
+        }
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            btcfRot2[i] = new Vector3(btCardsFlipTrans2[i].localEulerAngles.x,
+                btCardsFlipTrans2[i].localEulerAngles.y, btCardsFlipTrans2[i].localEulerAngles.z);
+
+        }
+
+        for (int i = 0; i < btCards.Length; i++)
+        {
+            btcaPos3[i] = new Vector3(btCardsAwayTrans3[i].localPosition.x,
+                btCardsAwayTrans3[i].localPosition.y, btCardsAwayTrans3[i].localPosition.z);
+
+        }
+
+        btcwmPos4 = new Vector3(btCardWithMediaTrans4.localPosition.x, btCardWithMediaTrans4.localPosition.y, btCardWithMediaTrans4.localPosition.z);
+
+        // SI
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            sicoPos0[i] = new Vector3(siCardsOriginTrans0[i].localPosition.x,
+                siCardsOriginTrans0[i].localPosition.y, siCardsOriginTrans0[i].localPosition.z);
+
+        }
+
+
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            sicsPos1[i] = new Vector3(siCardsSpreadTrans1[i].localPosition.x,
+                siCardsSpreadTrans1[i].localPosition.y, siCardsSpreadTrans1[i].localPosition.z);
+
+        }
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            sicfRot2[i] = new Vector3(siCardsFlipTrans2[i].localEulerAngles.x,
+                siCardsFlipTrans2[i].localEulerAngles.y, siCardsFlipTrans2[i].localEulerAngles.z);
+
+        }
+
+        for (int i = 0; i < siCards.Length; i++)
+        {
+            sicaPos3[i] = new Vector3(siCardsAwayTrans3[i].localPosition.x,
+                siCardsAwayTrans3[i].localPosition.y, siCardsAwayTrans3[i].localPosition.z);
+
+        }
+
+        sicwmPos4 = new Vector3(siCardWithMediaTrans4.localPosition.x, siCardWithMediaTrans4.localPosition.y, siCardWithMediaTrans4.localPosition.z);
+
+        // MRM
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            mrmcoPos0[i] = new Vector3(mrmCardsOriginTrans0[i].localPosition.x,
+                mrmCardsOriginTrans0[i].localPosition.y, mrmCardsOriginTrans0[i].localPosition.z);
+
+        }
+
+
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            mrmcsPos1[i] = new Vector3(mrmCardsSpreadTrans1[i].localPosition.x,
+                mrmCardsSpreadTrans1[i].localPosition.y, mrmCardsSpreadTrans1[i].localPosition.z);
+
+        }
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            mrmcfRot2[i] = new Vector3(mrmCardsFlipTrans2[i].localEulerAngles.x,
+                mrmCardsFlipTrans2[i].localEulerAngles.y, mrmCardsFlipTrans2[i].localEulerAngles.z);
+
+        }
+
+        for (int i = 0; i < mrmCards.Length; i++)
+        {
+            mrmcaPos3[i] = new Vector3(mrmCardsAwayTrans3[i].localPosition.x,
+                mrmCardsAwayTrans3[i].localPosition.y, mrmCardsAwayTrans3[i].localPosition.z);
+
+        }
+
+        mrmcwmPos4 = new Vector3(mrmCardWithMediaTrans4.localPosition.x, mrmCardWithMediaTrans4.localPosition.y, mrmCardWithMediaTrans4.localPosition.z);
+
 
         // START IDLE ANIMATION OF GLOBAL DECK:
 
@@ -580,13 +682,13 @@ public class LtDeckTransitions : MonoBehaviour
 
 
         // THE DEP DECK IS CENTERED
-        LeanTween.rotateLocal(siDeck, sioRot0, timeAnim2).setEase(animCurve);
-        LeanTween.moveLocal(siDeck, sioPos0, timeAnim2).setEase(animCurve);
+        LeanTween.rotateLocal(mrmDeck, mrmoRot0, timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(mrmDeck, mrmoPos0, timeAnim2).setEase(animCurve);
 
         // OTHER DECKS MOVE AWAY
         LeanTween.moveLocal(viskomDeck, vkuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
         LeanTween.moveLocal(btDeck, btuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
-        LeanTween.moveLocal(mrmDeck, mrmuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
+        LeanTween.moveLocal(siDeck, siuPos2, timeAnim2).setDelay(timeAnim2).setEase(animCurve);
 
         // CHOSEN DECK STARTS TO SPREAD
         for (int i = 0; i < mrmCards.Length; i++)
